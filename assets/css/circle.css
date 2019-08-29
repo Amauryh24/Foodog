@@ -1,0 +1,19 @@
+.circle-text {
+  display: table-cell;
+  height: 25px;
+  /*change this and the width for the size of your initial circle*/
+  width: 25px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  padding: 30px;
+  /*make it pretty*/
+  background: #ff8262;
+  color: #fff;
+  font: 20px "josefin sans", arial;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+  text-transform: uppercase;
+  /*change this for font-size and font-family*/
+}
+/*# sourceMappingURL=circle.css.map */

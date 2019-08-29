@@ -1,0 +1,23 @@
+$colorcirle: #ff8262;
+$hcirle: 25px;
+$wcircle: 25px;
+$ccolor: #fff;
+$cfonts: 20px;
+$crotate: -20deg;
+.circle-text {
+    display: table-cell;
+    height: $hcirle;
+    /*change this and the width for the size of your initial circle*/
+    width: $wcircle;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    padding: 30px;
+    /*make it pretty*/
+    background: $colorcirle;
+    color: $ccolor;
+    font: $cfonts "josefin sans", arial;
+    transform: rotate($crotate);
+    text-transform: uppercase;
+    /*change this for font-size and font-family*/
+}
