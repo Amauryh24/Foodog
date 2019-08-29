@@ -1,4 +1,33 @@
+@font-face {
+  font-family: 'Open-sans';
+  src: url("../fonts/Open-Sans/OpenSans-Regular.ttf");
+  /* font pour les paragraphes*/
+}
+
+@font-face {
+  font-family: 'Crimson-Text';
+  src: url("../fonts/Crimson-Text/CrimsonText-Regular.ttf");
+  /* font pour les titres*/
+}
+
 body {
   background-color: red;
+  font-family: 'Open-sans';
+}
+
+.boite {
+  border: 2px solid blue;
+}
+
+img {
+  width: 100%;
+}
+
+#footer-two {
+  background-color: #303336;
+}
+
+#social-icon {
+  width: 20%;
 }
 /*# sourceMappingURL=style.css.map */
