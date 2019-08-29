@@ -21,3 +21,22 @@ $crotate: -20deg;
     text-transform: uppercase;
     /*change this for font-size and font-family*/
 }
+
+// h2 {
+//     display: flex;
+//     width: 86%;
+//     justify-content: center;
+//     align-items: center;
+// }
+#test {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    &:after {
+        content: '';
+        border-top: 2px solid;
+        flex: 1 0;
+        margin-left: 14px;
+    }
+}
