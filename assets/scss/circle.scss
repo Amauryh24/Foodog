@@ -51,12 +51,6 @@ $title: #ff8364;
     color: #939393
 }
 
-.border-bottom {
-    border-bottom: #939393;
-    border-width: 2px;
-    padding: 20px 0px 20px 0px;
-}
-
 .blockimg {
     padding-left: 0;
 }
@@ -64,6 +58,7 @@ $title: #ff8364;
 article {
     .redtitle {
         color: $title;
+        font-weight: bold;
     }
     #ask {
         font-weight: 900;
@@ -74,4 +69,41 @@ article {
     p {
         color: #939393;
     }
+}
+
+.linksocial {
+    text-decoration: none;
+    color: white;
+    display: block;
+    &:hover {
+        text-decoration: none;
+        color: white;
+    }
+    strong {
+        float: right;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    span {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    margin: 2px;
+    padding: 10px;
+}
+
+#fb {
+    @extend .linksocial;
+    background-color: #8c92cf;
+    margin-top: 129px;
+}
+
+#tw {
+    @extend .linksocial;
+    background-color: #50d0f7;
+}
+
+#inst {
+    @extend .linksocial;
+    background-color: #6f96bf;
 }

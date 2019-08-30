@@ -48,18 +48,13 @@
   color: #939393;
 }
 
-.border-bottom {
-  border-bottom: #939393;
-  border-width: 2px;
-  padding: 20px 0px 20px 0px;
-}
-
 .blockimg {
   padding-left: 0;
 }
 
 article .redtitle {
   color: #ff8364;
+  font-weight: bold;
 }
 
 article #ask {
@@ -70,4 +65,41 @@ article #ask {
 
 article p {
   color: #939393;
+}
+
+.linksocial, #fb, #tw, #inst {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin: 2px;
+  padding: 10px;
+}
+
+.linksocial:hover, #fb:hover, #tw:hover, #inst:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.linksocial strong, #fb strong, #tw strong, #inst strong {
+  float: right;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.linksocial span, #fb span, #tw span, #inst span {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#fb {
+  background-color: #8c92cf;
+  margin-top: 129px;
+}
+
+#tw {
+  background-color: #50d0f7;
+}
+
+#inst {
+  background-color: #6f96bf;
 }
