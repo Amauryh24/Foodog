@@ -10,24 +10,101 @@
     /* font pour les titres*/
 }
 
-
 body {
-    background-color: red;
+    /*mise en place de la police et interlignage*/
     font-family: 'Open-sans';
 }
 
-.boite {
-    border: 2px solid blue;
+/*début header*/
+header {
+    padding-top: 25px;
 }
 
-img {
+#medias {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#medias li,
+#nav li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+#medias li i,
+#nav li a {
+    color: black;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*fin header*/
+
+/* début footer one*/
+footer img {
+    width: 100%;
+    /*l'image occupe 100% de la place disponible du parent*/
+}
+
+/* fin footer one*/
+
+/* début footer two*/
+#footer-two {
+    background-color: rgb(48, 51, 54);
+
+}
+
+#up {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    font-size: 35px;
+    color: rgb(52, 58, 64);
+    padding: 3px;
+}
+
+#up:hover {
+    color: black;
+}
+
+#1 img {
+    width: 100px;
+}
+
+#footer-two li {
+    background-color: rgb(52, 58, 64);
+    margin: 3px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#footer-two li:hover {
+    background-color: red;
+}
+
+#footer-two li a {
     width: 100%;
 }
 
-#footer-two {
-    background-color: rgb(48, 51, 54);
+#footer-two li i {
+    color: white;
 }
 
-#social-icon {
-    width: 50%;
+/* fin footer two*/
+
+
+
+/*----------------------single page---------------------*/
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
 }
