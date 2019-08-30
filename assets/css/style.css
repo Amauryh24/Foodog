@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*---------------début de Section 3 --------------- */
+/*--------------- Début de section 3 --------------- */
 section#trois #titre {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -55,5 +55,8 @@ section#trois section.row article p {
   color: #939393;
 }
 
-/*---------------fin de Section 3 --------------- */
+/*--------------- Fin de section 3 --------------- */
+/*--------------- Début de section 6 --------------- */
+/*---------------fin de Section 6 --------------- */
+/* ---------------------------------------------- */
 /*# sourceMappingURL=style.css.map */
