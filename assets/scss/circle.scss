@@ -4,6 +4,7 @@ $wcircle: 25px;
 $ccolor: #fff;
 $cfonts: 20px;
 $crotate: -20deg;
+$title: #ff8364;
 .circle-text {
     display: table-cell;
     height: $hcirle;
@@ -28,16 +29,49 @@ $crotate: -20deg;
 //     justify-content: center;
 //     align-items: center;
 // }
-#test {
+#titre {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
+    color: black;
+    font-weight: 900;
+    padding: 0;
     &:after {
         content: '';
+        color: #f2f2f2;
         border-top: 2px solid;
         flex: 1 0;
         margin-left: 14px;
     }
     text-transform: uppercase;
+}
+
+.share {
+    color: #939393
+}
+
+.border-bottom {
+    border-bottom: #939393;
+    border-width: 2px;
+    padding: 20px 0px 20px 0px;
+}
+
+.blockimg {
+    padding-left: 0;
+}
+
+article {
+    .redtitle {
+        color: $title;
+    }
+    #ask {
+        font-weight: 900;
+        text-transform: uppercase;
+        // font-family: 'Open Sans', sans-serif;
+        font-size: 1.3rem;
+    }
+    p {
+        color: #939393;
+    }
 }
