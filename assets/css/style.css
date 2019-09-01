@@ -60,12 +60,17 @@ body {
 /*fin header*/
 /* début footer one*/
 #footer-one img {
-  width: 100%;
+  max-width: 100%;
   /*l'image occupe 100% de la place disponible du parent*/
 }
 
 #footer-one li {
   list-style-type: none;
+}
+
+#footer-one .cacher {
+  overflow: hidden;
+  height: 100px;
 }
 
 /* fin footer one*/
@@ -128,6 +133,10 @@ body {
   text-align: center;
 }
 
+#un .cacher {
+  display: none;
+}
+
 #un h3 {
   font-size: 14px;
 }
@@ -163,14 +172,11 @@ body {
 }
 
 /*fin section un*/
-.icone {
-  width: 20px;
-  height: 20px;
-  border: radius 50%;
-  display: block;
+/*--------------- Début de section 3 --------------- */
+#trois .cacher {
+  display: none;
 }
 
-/*--------------- Début de section 3 --------------- */
 section#trois #titre {
   display: -webkit-box;
   display: -ms-flexbox;

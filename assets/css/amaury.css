@@ -43,12 +43,17 @@
 /*fin header*/
 /* début footer one*/
 #footer-one img {
-  width: 100%;
+  max-width: 100%;
   /*l'image occupe 100% de la place disponible du parent*/
 }
 
 #footer-one li {
   list-style-type: none;
+}
+
+#footer-one .cacher {
+  overflow: hidden;
+  height: 100px;
 }
 
 /* fin footer one*/

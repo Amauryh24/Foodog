@@ -17,6 +17,10 @@
   /*change this for font-size and font-family*/
 }
 
+#deux .cacher {
+  display: none;
+}
+
 #titre {
   display: -webkit-box;
   display: -ms-flexbox;
