@@ -5,6 +5,20 @@ $title:#ff8364;
     display: none;
 }
 
+#trois figure {
+    overflow: hidden;
+    height: 238px;
+    position: relative;
+
+    img {
+
+        position: absolute;
+        top: -65px;
+
+    }
+}
+
+
 section#trois {
     #titre {
         display: flex;

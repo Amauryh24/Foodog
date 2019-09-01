@@ -4,7 +4,7 @@
   padding-top: 25px;
 }
 
-#medias-head {
+#head #medias-head {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,35 +13,47 @@
           justify-content: flex-end;
 }
 
-#medias-head li {
+#head #medias-head li {
   list-style-type: none;
   padding: 10px;
 }
 
-#medias-head li i {
+#head #medias-head li i {
   color: black;
 }
 
-#nav {
+#head #nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 10px 0;
 }
 
-#nav li {
+#head #nav li {
   list-style-type: none;
-  padding: 10px;
+  padding: 0 20px;
 }
 
-#nav li a {
+#head #nav li a {
   color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
 }
 
 /*fin header*/
 /* début footer one*/
+#footer-one h2 {
+  display: none;
+}
+
 #footer-one img {
   max-width: 100%;
   /*l'image occupe 100% de la place disponible du parent*/
@@ -51,13 +63,25 @@
   list-style-type: none;
 }
 
+#footer-one li a {
+  color: white;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+}
+
 #footer-one .cacher {
   overflow: hidden;
+  width: 100px;
   height: 100px;
 }
 
 /* fin footer one*/
 /* début footer two*/
+#footer-two h2 {
+  display: none;
+}
+
 #footer-two {
   background-color: #303336;
 }
@@ -76,7 +100,7 @@
 }
 
 #medias-footer li a:hover {
-  background-color: green;
+  background-color: red;
 }
 
 #medias-footer li i {
@@ -90,12 +114,8 @@
   bottom: 20px;
   right: 15px;
   font-size: 35px;
-  color: #343a40;
+  color: #4a4b4c;
   padding: 3px;
-}
-
-#up:hover {
-  color: black;
 }
 
 /* fin footer two*/

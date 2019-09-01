@@ -1,39 +1,56 @@
+$black:black;
+
 /*début header*/
 #head {
     padding-top: 25px;
+
+    #medias-head {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #medias-head li {
+        list-style-type: none;
+        padding: 10px;
+    }
+
+    #medias-head li i {
+        color: $black;
+    }
+
+    #nav {
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(242, 242, 242);
+        margin: 10px 0;
+
+    }
+
+    #nav li {
+        list-style-type: none;
+        padding: 0 20px;
+    }
+
+    #nav li a {
+        color: $black;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 14px;
+    }
 }
 
-#medias-head {
-    display: flex;
-    justify-content: flex-end;
-}
 
-#medias-head li {
-    list-style-type: none;
-    padding: 10px;
-}
-
-#medias-head li i {
-    color: black;
-}
-
-#nav {
-    display: flex;
-    justify-content: flex-end;
-}
-
-#nav li {
-    list-style-type: none;
-    padding: 10px;
-}
-
-#nav li a {
-    color: black;
-}
 
 /*fin header*/
 
 /* début footer one*/
+#footer-one h2 {
+    display: none;
+}
+
 #footer-one img {
     max-width: 100%;
     /*l'image occupe 100% de la place disponible du parent*/
@@ -43,14 +60,26 @@
     list-style-type: none;
 }
 
+#footer-one li a {
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+}
+
 #footer-one .cacher {
     overflow: hidden;
+    width: 100px;
     height: 100px;
 }
 
 /* fin footer one*/
 
 /* début footer two*/
+#footer-two h2 {
+    display: none;
+}
+
 #footer-two {
     background-color: rgb(48, 51, 54);
 }
@@ -68,10 +97,9 @@
     border-radius: 50%;
 
     &:hover {
-        background-color: green;
+        background-color: red;
     }
 }
-
 
 
 #medias-footer li i {
@@ -85,12 +113,8 @@
     bottom: 20px;
     right: 15px;
     font-size: 35px;
-    color: rgb(52, 58, 64);
+    color: rgb(74, 75, 76);
     padding: 3px;
-}
-
-#up:hover {
-    color: black;
 }
 
 /* fin footer two*/
