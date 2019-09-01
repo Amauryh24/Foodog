@@ -119,48 +119,7 @@ body {
 
 }
 
-/*section un*/
-
-
-
-h2 {
-    text-align: center;
-}
-
-.legend {
-    font-size: 5px;
-    color: red;
-    margin-top: 5px;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.test {
-    border: solid black;
-}
-
-img {
-    width: 100%;
-
-
-}
-
-.red {
-
-    color: #ff8364;
-}
-
-font {
-    font-size: 16px;
-}
-
-.center {
-    text-align: center;
-}
-
-/*fin section un*/
+@import 'anso.scss';
 
 .icone {
     width: 20px;

@@ -124,37 +124,41 @@ body {
 }
 
 /*section un*/
-h2 {
+#un h2 {
   text-align: center;
 }
 
-.legend {
+#un h3 {
+  font-size: 14px;
+}
+
+#un .legend {
   font-size: 5px;
-  color: red;
+  color: green;
   margin-top: 5px;
 }
 
-.bold {
+#un .bold {
   font-weight: bold;
 }
 
-.test {
+#un .test {
   border: solid black;
 }
 
-img {
+#un img {
   width: 100%;
 }
 
-.red {
+#un .red {
   color: #ff8364;
 }
 
-font {
+#un font {
   font-size: 16px;
 }
 
-.center {
+#un .center {
   text-align: center;
 }
 
