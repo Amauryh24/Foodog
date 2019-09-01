@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @charset "UTF-8";
 @font-face {
   font-family: 'Open-sans';
@@ -89,7 +88,7 @@ body {
 }
 
 #medias-footer li a:hover {
-  background-color: red;
+  background-color: green;
 }
 
 #medias-footer li i {
@@ -147,7 +146,7 @@ body {
   border: solid black;
 }
 
-#un img {
+#blabla img {
   width: 100%;
 }
 
@@ -171,6 +170,3 @@ body {
   display: block;
 }
 /*# sourceMappingURL=style.css.map */
-=======
-/* No CSS */
->>>>>>> damien
