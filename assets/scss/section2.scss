@@ -23,13 +23,18 @@ $title: #ff8364;
     /*change this for font-size and font-family*/
 }
 
+.titregenerique {
+    color: black;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
 #titre {
+    @extend .titregenerique;
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
-    color: black;
-    font-weight: 900;
     padding: 0;
     &:after {
         content: '';
@@ -38,7 +43,6 @@ $title: #ff8364;
         flex: 1 0;
         margin-left: 14px;
     }
-    text-transform: uppercase;
 }
 
 .share {
@@ -63,6 +67,11 @@ article {
         text-transform: uppercase;
         // font-family: 'Open Sans', sans-serif;
         font-size: 1.3rem;
+        color: black;
+        &:hover {
+            color: black;
+            text-decoration: none;
+        }
     }
     p {
         color: #939393;
