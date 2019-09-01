@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAMA,AAAA,YAAY,CAAC;EACT,OAAO,EAAE,UAAU;EACnB,MAAM,EAPD,IAAI;EAQT,iEAAiE;EACjE,KAAK,EARC,IAAI;EASV,UAAU,EAAE,MAAM;EAClB,cAAc,EAAE,MAAM;EACtB,aAAa,EAAE,GAAG;EAClB,OAAO,EAAE,IAAI;EACb,kBAAkB;EAClB,UAAU,EAhBD,OAAO;EAiBhB,KAAK,EAdA,IAAI;EAeT,IAAI,EAdC,IAAI,CAcK,cAAc,EAAE,KAAK;EACnC,SAAS,EAAE,cAAgB;EAC3B,cAAc,EAAE,SAAS;EACzB,6CAA6C;CAChD",
-    "sources": [
-        "../scss/circle.scss"
-    ],
-    "names": [],
-    "file": "circle.css"
-}

@@ -48,6 +48,11 @@
   color: #939393;
 }
 
+.share:hover {
+  text-decoration: none;
+  color: #939393;
+}
+
 .blockimg {
   padding-left: 0;
 }
