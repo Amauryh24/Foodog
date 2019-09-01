@@ -17,11 +17,11 @@ body {
 }
 
 /*début header*/
-header {
+#head {
   padding-top: 25px;
 }
 
-#medias {
+#medias-head {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,14 +30,12 @@ header {
           justify-content: flex-end;
 }
 
-#medias li,
-#nav li {
+#medias-head li {
   list-style-type: none;
   padding: 10px;
 }
 
-#medias li i,
-#nav li a {
+#medias-head li i {
   color: black;
 }
 
@@ -50,11 +48,24 @@ header {
           justify-content: flex-end;
 }
 
+#nav li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+#nav li a {
+  color: black;
+}
+
 /*fin header*/
 /* début footer one*/
-footer img {
+#footer-one img {
   width: 100%;
   /*l'image occupe 100% de la place disponible du parent*/
+}
+
+#footer-one li {
+  list-style-type: none;
 }
 
 /* fin footer one*/
@@ -63,7 +74,30 @@ footer img {
   background-color: #303336;
 }
 
+#medias-footer li {
+  list-style-type: none;
+  margin-right: 25px;
+  width: 25px;
+}
+
+#medias-footer li a {
+  width: 100%;
+  padding: 10px;
+  background-color: #343a40;
+  border-radius: 50%;
+}
+
+#medias-footer li a:hover {
+  background-color: red;
+}
+
+#medias-footer li i {
+  color: white;
+  width: 100%;
+}
+
 #up {
+  /*position fixe de la flèche sur tout la page placé en bas à droite de la page*/
   position: fixed;
   bottom: 20px;
   right: 15px;
@@ -74,29 +108,6 @@ footer img {
 
 #up:hover {
   color: black;
-}
-
-#1 img {
-  width: 100px;
-}
-
-#footer-two li {
-  background-color: #343a40;
-  margin: 3px;
-  width: 40px;
-  border-radius: 50%;
-}
-
-#footer-two li:hover {
-  background-color: red;
-}
-
-#footer-two li a {
-  width: 100%;
-}
-
-#footer-two li i {
-  color: white;
 }
 
 /* fin footer two*/
