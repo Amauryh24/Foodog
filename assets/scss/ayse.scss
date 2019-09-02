@@ -1,0 +1,125 @@
+$title:#ff8364;
+
+/*--------------- Début de section 3 --------------- */
+#trois .cacher {
+    display: none;
+}
+
+#trois figure {
+    overflow: hidden;
+    height: 238px;
+    position: relative;
+
+    img {
+
+        position: absolute;
+        top: -65px;
+
+    }
+}
+
+
+section#trois {
+    #titre {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-weight: 900;
+
+        &:after {
+            content: '';
+            color: #f2f2f2;
+            border-top: 2px solid;
+            flex: 1 0;
+            margin-left: 14px;
+        }
+
+        text-transform: uppercase;
+    }
+
+    section.row {
+        margin-top: 20px;
+
+        article {
+            * {
+                text-align: center;
+            }
+
+            img {
+                margin-bottom: 10px;
+            }
+
+            .redtitle {
+                color: $title;
+                text-transform: uppercase;
+
+                font: {
+                    size: 0.7rem;
+                    weight: bold;
+                }
+            }
+
+            .ask {
+                font-weight: 900;
+                text-transform: uppercase;
+                font-size: 1rem;
+            }
+
+            p {
+                color: #939393;
+
+            }
+        }
+    }
+}
+
+/*--------------- Fin de section 3 --------------- */
+/*--------------- Début de section 6 --------------- */
+section#six {
+
+
+    // ul {
+    //     list-style: none;
+    //     display: flex;
+    //     flex-wrap: wrap;
+
+    //     li {
+    //         padding: 5px 100px;
+    //         background-color: #c8232c;
+    //         margin-right: 20px;
+
+    //     }
+
+    //     .list-item {
+    //         padding: 5px;
+    //         border-radius: 5px;
+
+    //         &.comment {
+    //             background-color: grey;
+    //         }
+
+    //         &.facebook {
+    //             background-color: rgb(2, 119, 228);
+    //         }
+
+    //         &.twitter {
+    //             background-color: rgb(63, 174, 243);
+    //         }
+
+    //         &.pinterest {
+    //             background-color: #c8232c;
+    //         }
+
+    //         a {
+    //             text-decoration: none;
+    //             color: white;
+    //         }
+    //     }
+
+    // }
+}
+
+/*---------------fin de Section 6 --------------- */
+/* ---------------------------------------------- */
