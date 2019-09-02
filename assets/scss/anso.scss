@@ -54,8 +54,10 @@
     text-align: center;
 }
 
-/*fin section un*/
-/*====debut section 5=======*/
+/* ============  fin section un ===============*/
+
+
+/*=============  code anso sec 5 ===============
 #cinq .bg {
     background-color: #ff8364;
 }
@@ -73,4 +75,52 @@
 #cinq h3 {
     height: 200px;
     color: red;
+}
+
+*/
+
+/* =============  debut section 5 ===============*/
+.boite {
+    border: 1px solid green;
+}
+
+#cinq {
+
+    img {
+        max-width: 100%;
+    }
+
+    ol {
+        display: flex;
+
+        li {
+            padding: 0 20px;
+        }
+    }
+
+}
+
+#medias-follow-us {
+    li {
+        list-style-type: none;
+        padding: 0 5px;
+        margin: 0 10px;
+        background-color: black;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+
+        a {
+            display: grid;
+            height: 100%;
+            align-items: center;
+
+            i {
+                color: white;
+            }
+        }
+
+
+    }
+
 }
