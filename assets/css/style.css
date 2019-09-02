@@ -325,8 +325,102 @@ section#trois article p {
 
 /*--------------- Fin de section 3 --------------- */
 /*--------------- Début de section 6 --------------- */
-/*---------------fin de Section 6 --------------- */
-/* ---------------------------------------------- */
+section#six .container.un {
+  /* le div des réseaux sociaux*/
+  width: 600px;
+}
+
+section#six .container.un .linksocial, section#six .container.un #commts, section#six .container.un #pint, section#six .container.un #fb, section#six .container.un #tw, section#six .container.un #inst {
+  text-decoration: none;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+}
+
+section#six .container.un .linksocial:hover, section#six .container.un #commts:hover, section#six .container.un #pint:hover, section#six .container.un #fb:hover, section#six .container.un #tw:hover, section#six .container.un #inst:hover {
+  text-decoration: none;
+  color: white;
+}
+
+section#six .container.un .linksocial strong, section#six .container.un #commts strong, section#six .container.un #pint strong, section#six .container.un #fb strong, section#six .container.un #tw strong, section#six .container.un #inst strong {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+section#six .container.un #commts {
+  background-color: #b8b6b6;
+}
+
+section#six .container.un #fb {
+  background-color: #8c92cf;
+}
+
+section#six .container.un #tw {
+  background-color: #50d0f7;
+}
+
+section#six .container.un #pint {
+  background-color: #c8232c;
+}
+
+section#six .container.un p {
+  margin-top: 20%;
+}
+
+section#six .container.deux #subs {
+  margin-top: 100px;
+  text-align: center;
+}
+
+section#six .container.deux #mail {
+  margin-left: 30%;
+  width: 450px;
+}
+
+section#six .container.deux #mail ::-webkit-input-placeholder {
+  color: black;
+  padding-left: 3px;
+}
+
+section#six .container.deux #mail :-ms-input-placeholder {
+  color: black;
+  padding-left: 3px;
+}
+
+section#six .container.deux #mail ::-ms-input-placeholder {
+  color: black;
+  padding-left: 3px;
+}
+
+section#six .container.deux #mail ::placeholder {
+  color: black;
+  padding-left: 3px;
+}
+
+section#six .container.deux #mail input {
+  width: 80%;
+  height: 60px;
+}
+
+section#six .container.deux #mail button {
+  width: 20%;
+  background-color: #ff8364;
+  border: none;
+  text-transform: uppercase;
+  margin-right: 0;
+  font-weight: bold;
+  color: white;
+}
+
+/*Fin de section 6*/
 .circle-text {
   display: table-cell;
   height: 25px;
@@ -422,7 +516,7 @@ article p {
   display: none;
 }
 
-.linksocial, #fb, #tw, #inst {
+.linksocial, section#six .container.un #commts, section#six .container.un #fb, section#six .container.un #tw, section#six .container.un #pint, #fb, #tw, #inst {
   text-decoration: none;
   color: white;
   display: block;
@@ -430,18 +524,18 @@ article p {
   padding: 10px;
 }
 
-.linksocial:hover, #fb:hover, #tw:hover, #inst:hover {
+.linksocial:hover, section#six .container.un #commts:hover, section#six .container.un #fb:hover, section#six .container.un #tw:hover, section#six .container.un #pint:hover, #fb:hover, #tw:hover, #inst:hover {
   text-decoration: none;
   color: white;
 }
 
-.linksocial strong, #fb strong, #tw strong, #inst strong {
+.linksocial strong, section#six .container.un #commts strong, section#six .container.un #fb strong, section#six .container.un #tw strong, section#six .container.un #pint strong, #fb strong, #tw strong, #inst strong {
   float: right;
   text-transform: uppercase;
   font-size: 12px;
 }
 
-.linksocial span, #fb span, #tw span, #inst span {
+.linksocial span, section#six .container.un #commts span, section#six .container.un #fb span, section#six .container.un #tw span, section#six .container.un #pint span, #fb span, #tw span, #inst span {
   font-size: 12px;
   font-weight: bold;
 }
