@@ -1,3 +1,24 @@
-body {
-    background-color: red;
+@font-face {
+    font-family: 'Open-sans';
+    src: url('../fonts/Open-Sans/OpenSans-Regular.ttf');
+    /* font pour les paragraphes*/
 }
+
+@font-face {
+    font-family: 'Crimson-Text';
+    src: url('../fonts/Crimson-Text/CrimsonText-Regular.ttf');
+    /* font pour les titres*/
+}
+
+body {
+    /*mise en place de la police et interlignage*/
+    font-family: 'Open-sans';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+@import 'amaury.scss';
+@import 'anso.scss';
+@import 'ayse'
