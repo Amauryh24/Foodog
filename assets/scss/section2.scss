@@ -128,3 +128,8 @@ article {
     @extend .linksocial;
     background-color: #6f96bf;
 }
+
+#comm {
+    @extend .linksocial;
+    background-color: black;
+}
