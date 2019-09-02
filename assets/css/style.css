@@ -19,6 +19,10 @@ body {
   line-height: 1.5;
 }
 
+img:hover {
+  opacity: 0.8;
+}
+
 /*début header*/
 #head {
   padding-top: 25px;
