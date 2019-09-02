@@ -319,13 +319,21 @@ section#trois section.row article p {
   margin-left: 14px;
 }
 
+.linkp {
+  color: #bbc8ac !important;
+}
+
 .share {
-  color: #939393;
+  color: #dbe3f8;
 }
 
 .share:hover {
   text-decoration: none;
   color: #939393;
+}
+
+.page-link:hover {
+  background-color: #1d2124;
 }
 
 .blockimg {
