@@ -85,6 +85,13 @@ article #ask:hover {
   text-decoration: none;
 }
 
+article h3 {
+  color: #4b4f54;
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
 article p {
   color: #939393;
 }

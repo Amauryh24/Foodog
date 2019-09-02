@@ -109,6 +109,11 @@ body {
   /*l'image occupe 100% de la place disponible du parent*/
 }
 
+#gallery-instagram img {
+  max-width: 100%;
+  height: 100px;
+}
+
 #footer-one li {
   list-style-type: none;
 }
@@ -118,6 +123,13 @@ body {
   font-weight: 700;
   font-style: normal;
   font-size: 14px;
+}
+
+#footer-one li a:hover {
+  text-decoration: none;
+  color: grey !important;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 #footer-one .cacher {
@@ -154,6 +166,10 @@ body {
   width: 25px;
 }
 
+#medias-footer li:hover a {
+  background-color: white;
+}
+
 #medias-footer li a {
   width: 100%;
   padding: 10px;
@@ -161,8 +177,8 @@ body {
   border-radius: 50%;
 }
 
-#medias-footer li a:hover {
-  background-color: red;
+#medias-footer li a:hover i {
+  color: black;
 }
 
 #medias-footer li i {
@@ -267,6 +283,7 @@ body {
   font-size: 24px;
   font-family: "Open-sans";
   margin-top: -8px;
+  color: black;
 }
 
 #un .cacher {
@@ -277,6 +294,7 @@ body {
   font-size: 16px;
   font-weight: bold;
   margin-top: 15px;
+  color: black;
 }
 
 #un .legend {
@@ -323,7 +341,7 @@ section#trois .cacher {
 
 section#trois figure#dix {
   overflow: hidden;
-  height: 238px;
+  height: 232px;
   position: relative;
 }
 
@@ -479,6 +497,13 @@ article #ask {
 article #ask:hover {
   color: black;
   text-decoration: none;
+}
+
+article h3 {
+  color: #4b4f54;
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 article p {
