@@ -1,5 +1,9 @@
 /*section un*/
-
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
 
 
 #un h2 {
@@ -54,22 +58,39 @@
     text-align: center;
 }
 
+<<<<<<< HEAD
 /* ============  fin section un ===============*/
 
 
 /*=============  code anso sec 5 ===============
-#cinq .bg {
+=======
+/*fin section 1*/
+/*====debut section 5=======*/
+>>>>>>>762ee3ac3085f1d26ae0fd2a798f3c6222755973 #cinq .bg {
     background-color: #ff8364;
 }
 
 #cinq .img2 {
 
-    width: 500Px !important;
+    width: 750px !important;
+    height: 750px;
     position: absolute;
+
 }
 
 #cinq .img3 {
-    padding-top: 200px;
+
+
+
+    left: 847.328px;
+    top: 206px;
+    width: 300px;
+    margin-left: 2px;
+    padding: 0px;
+    z-index: 0;
+    position: fixed;
+
+
 }
 
 #cinq h3 {
