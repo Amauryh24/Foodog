@@ -1,76 +1,91 @@
 $title:#ff8364;
 
 /*--------------- Début de section 3 --------------- */
-#trois .cacher {
-    display: none;
-}
-
-#trois figure {
-    overflow: hidden;
-    height: 238px;
-    position: relative;
-
-    img {
-
-        position: absolute;
-        top: -65px;
-
-    }
-}
-
 
 section#trois {
-    #titre {
+
+    h3 {
+        font-family: 'Open-sans';
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .cacher {
+        display: none;
+    }
+
+    figure#dix {
+        overflow: hidden;
+        height: 238px;
+        position: relative;
+
+        img {
+
+            position: absolute;
+            top: -65px;
+
+        }
+    }
+
+    figure#quinze {
+        overflow: hidden;
+        height: 238px;
+        position: relative;
+
+        img {
+
+            position: absolute;
+
+        }
+    }
+
+    #titre-deux {
         display: flex;
         width: 100%;
         justify-content: center;
         align-items: center;
         color: black;
         font-weight: 900;
+        padding: 15px;
 
         &:after {
             content: '';
             color: #f2f2f2;
             border-top: 2px solid;
             flex: 1 0;
-            margin-left: 14px;
+            margin-left: 10px;
+
         }
 
         text-transform: uppercase;
     }
 
-    section.row {
-        margin-top: 20px;
+    article {
 
-        article {
-            * {
-                text-align: center;
+        .redtitle {
+            margin-top: 15px;
+            color: $title;
+            text-transform: uppercase;
+
+
+            font: {
+                size: 0.7rem;
+                weight: 900;
+                family: 'Open Sans';
             }
+        }
 
-            img {
-                margin-bottom: 10px;
-            }
+        .ask {
+            font-weight: 900;
+            text-transform: uppercase;
+            font-size: 1rem;
+        }
 
-            .redtitle {
-                color: $title;
-                text-transform: uppercase;
+        p {
+            color: #939393;
+            text-align: center;
+            font-family: 'Crimson-Text';
 
-                font: {
-                    size: 0.7rem;
-                    weight: bold;
-                }
-            }
-
-            .ask {
-                font-weight: 900;
-                text-transform: uppercase;
-                font-size: 1rem;
-            }
-
-            p {
-                color: #939393;
-
-            }
         }
     }
 }
