@@ -201,6 +201,28 @@ body {
 }
 
 /*fin section un*/
+#cinq .img2 {
+  width: 500px;
+}
+
+#cinq.size {
+  font-size: 14px;
+}
+
+#cinq.center {
+  text-align: center;
+}
+
+#cinq .img3 {
+  width: 380px;
+  height: 700px;
+}
+
+#cinq .h2 {
+  text-align: center;
+  color: #ff8364;
+}
+
 /*--------------- Début de section 3 --------------- */
 #trois .cacher {
   display: none;
