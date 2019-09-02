@@ -5,7 +5,6 @@ $ccolor: #fff;
 $cfonts: 20px;
 $crotate: -20deg;
 $title: #ff8364;
-
 .circle-text {
     display: table-cell;
     height: $hcirle;
@@ -24,25 +23,19 @@ $title: #ff8364;
     /*change this for font-size and font-family*/
 }
 
-// h2 {
-//     display: flex;
-//     width: 86%;
-//     justify-content: center;
-//     align-items: center;
-// }
-#deux .cacher {
-    display: none;
+.titregenerique {
+    color: black;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 #titre {
+    @extend .titregenerique;
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
-    color: black;
-    font-weight: 900;
     padding: 0;
-
     &:after {
         content: '';
         color: #f2f2f2;
@@ -50,12 +43,24 @@ $title: #ff8364;
         flex: 1 0;
         margin-left: 14px;
     }
+}
 
-    text-transform: uppercase;
+.linkp {
+    color: #bbc8ac !important;
 }
 
 .share {
-    color: #939393
+    color: #dbe3f8;
+    &:hover {
+        text-decoration: none;
+        color: #939393;
+    }
+}
+
+.page-link {
+    &:hover {
+        background-color: #1d2124;
+    }
 }
 
 .blockimg {
@@ -67,40 +72,43 @@ article {
         color: $title;
         font-weight: bold;
     }
-
     #ask {
         font-weight: 900;
         text-transform: uppercase;
         // font-family: 'Open Sans', sans-serif;
         font-size: 1.3rem;
+        color: black;
+        &:hover {
+            color: black;
+            text-decoration: none;
+        }
     }
-
     p {
         color: #939393;
     }
+}
+
+#deux .cacher {
+    display: none;
 }
 
 .linksocial {
     text-decoration: none;
     color: white;
     display: block;
-
     &:hover {
         text-decoration: none;
         color: white;
     }
-
     strong {
         float: right;
         text-transform: uppercase;
         font-size: 12px;
     }
-
     span {
         font-size: 12px;
         font-weight: bold;
     }
-
     margin: 2px;
     padding: 10px;
 }
