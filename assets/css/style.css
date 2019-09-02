@@ -42,6 +42,10 @@ body {
   color: black;
 }
 
+#head #medias-head li i:hover {
+  color: grey;
+}
+
 #head #nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,6 +63,12 @@ body {
   padding: 0 20px;
 }
 
+#head #nav li:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  border-bottom: red;
+}
+
 #head #nav li a {
   color: black;
   text-transform: uppercase;
@@ -68,10 +78,30 @@ body {
   font-size: 14px;
 }
 
-/*fin header*/
+#head #nav li a:hover {
+  color: grey;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  text-decoration: none;
+}
+
+/*============ fin header ================*/
 /* début footer one*/
 #footer-one h2 {
   display: none;
+}
+
+#footer-one h5 {
+  color: grey;
+  font-weight: extra-bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#footer-one article:hover {
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
 }
 
 #footer-one img {
@@ -96,7 +126,19 @@ body {
   height: 100px;
 }
 
-/* fin footer one*/
+#posts a {
+  color: red;
+  font-weight: 900;
+}
+
+#posts a:hover {
+  text-decoration: none;
+  color: grey !important;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+/*================= fin footer one ==================*/
 /* début footer two*/
 #footer-two h2 {
   display: none;
@@ -154,6 +196,10 @@ body {
 /*section un*/
 #un h2 {
   text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Open-sans";
+  margin-top: -8px;
 }
 
 #un .cacher {
@@ -161,12 +207,13 @@ body {
 }
 
 #un h3 {
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
 }
 
 #un .legend {
   font-size: 5px;
-  color: green;
   margin-top: 5px;
 }
 
@@ -184,6 +231,7 @@ body {
 
 #un .red {
   color: #ff8364;
+  font-size: 5;
 }
 
 #un font {
@@ -401,3 +449,4 @@ article p {
 #inst {
   background-color: #6f96bf;
 }
+/*# sourceMappingURL=style.css.map */
