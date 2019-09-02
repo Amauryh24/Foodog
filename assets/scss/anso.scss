@@ -1,0 +1,101 @@
+/*section un*/
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#un h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Open-sans";
+    margin-top: -8px;
+
+
+}
+
+#un .cacher {
+    display: none;
+}
+
+#un h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#un .legend {
+    font-size: 5px;
+
+    margin-top: 5px;
+}
+
+#un .bold {
+    font-weight: bold;
+}
+
+#un .test {
+    border: solid black;
+}
+
+#un img {
+    width: 100%;
+}
+
+#un .red {
+
+    color: #ff8364;
+    font-size: 5;
+}
+
+#un font {
+    font-size: 16px;
+}
+
+#un .center {
+    text-align: center;
+}
+
+/*fin section 1*/
+/*====debut section 5=======*/
+#cinq .bg {
+    background-color: #ff8364;
+}
+
+#cinq .img2 {
+
+    width: 750px !important;
+    height: 750px;
+    position: absolute;
+
+}
+
+#cinq .img3 {
+   
+    
+
+    left: 847.328px;
+    top: 206px;
+    width: 300px;
+    margin-left: 2px;
+    padding: 0px;
+    z-index: 0;
+    position: fixed;
+
+
+}
+
+
+#cinq h1{
+    width: 750px;
+    text-align: center;
+    font-size: 32px;
+    height: 100px; 
+}
+#cinq .col1{
+    width: 500px;
+}
+
+

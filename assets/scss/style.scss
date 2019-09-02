@@ -1,53 +1,24 @@
-/*section un*/
-
-.bg {
-    background-color: aqua;
-    border: 2px solid black;
+@font-face {
+    font-family: 'Open-sans';
+    src: url('../fonts/Open-Sans/OpenSans-Regular.ttf');
+    /* font pour les paragraphes*/
 }
 
-h2 {
-    text-align: center;
+@font-face {
+    font-family: 'Crimson-Text';
+    src: url('../fonts/Crimson-Text/CrimsonText-Regular.ttf');
+    /* font pour les titres*/
 }
 
-.legend {
-    font-size: 5px;
-    color: red;
-    margin-top: 5px;
+body {
+    /*mise en place de la police et interlignage*/
+    font-family: 'Open-sans';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
-.bold {
-    font-weight: bold;
-}
 
-.test {
-    border: solid black;
-}
-
-img {
-    width: 100%;
-
-
-}
-
-.red {
-
-    color: #ff8364;
-}
-
-font {
-    font-size: 16px;
-}
-
-.center {
-    text-align: center;
-}
-
-/*fin section un*/
-/*debut section 5*/
-
-.icone {
-    width: 20px;
-    height: 20px;
-    border: radius 50%;
-    display: block;
-}
+@import 'amaury.scss';
+@import 'anso.scss';
+@import 'ayse.scss';
