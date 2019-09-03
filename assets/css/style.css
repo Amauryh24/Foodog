@@ -226,6 +226,10 @@ img:hover {
   background-color: white;
 }
 
+#single-page-head #menu-burger h1 {
+  margin-left: 20px;
+}
+
 #single-page-head #inbox-email {
   display: -webkit-box;
   display: -ms-flexbox;
