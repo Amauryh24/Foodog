@@ -202,6 +202,7 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*fin section un*/
 /*====debut section 5=======*/
 #cinq .bg {
@@ -248,6 +249,35 @@ body {
   border: 1px solid green;
 }
 
+=======
+/* ============  fin section un ===============*/
+/*=============  code anso sec 5 ===============
+#cinq .bg {
+    background-color: #ff8364;
+}
+
+#cinq .img2 {
+
+    width: 500Px !important;
+    position: absolute;
+}
+
+#cinq .img3 {
+    padding-top: 200px;
+}
+
+#cinq h3 {
+    height: 200px;
+    color: red;
+}
+
+*/
+/* =============  debut section 5 ===============*/
+.boite {
+  border: 1px solid green;
+}
+
+>>>>>>> refs/remotes/origin/anso
 #cinq img {
   max-width: 100%;
 }
@@ -283,7 +313,10 @@ body {
 
 #medias-follow-us li a i {
   color: white;
+<<<<<<< HEAD
 >>>>>>> f0fa2a0113829bffdd1b2c9145b5bd032c00cc93
+=======
+>>>>>>> refs/remotes/origin/anso
 }
 
 /*--------------- Début de section 3 --------------- */

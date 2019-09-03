@@ -48,6 +48,7 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*fin section un*/
 /*====debut section 5=======*/
 #cinq .bg {
@@ -105,6 +106,45 @@
 >>>>>>> f0fa2a0113829bffdd1b2c9145b5bd032c00cc93
 }
 
+=======
+/* ============  fin section un ===============*/
+/*=============  code anso sec 5 ===============
+#cinq .bg {
+    background-color: #ff8364;
+}
+
+#cinq .img2 {
+
+    width: 500Px !important;
+    position: absolute;
+}
+
+#cinq .img3 {
+    padding-top: 200px;
+}
+
+#cinq h3 {
+    height: 200px;
+    color: red;
+}
+
+*/
+/* =============  debut section 5 ===============*/
+.boite {
+  border: 1px solid green;
+}
+
+#cinq img {
+  max-width: 100%;
+}
+
+#cinq ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+>>>>>>> refs/remotes/origin/anso
 #cinq ol li {
   padding: 0 20px;
 }
