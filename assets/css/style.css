@@ -222,17 +222,8 @@ img:hover {
       flex-wrap: wrap;
   border-bottom: 1px solid black;
   position: fixed;
-  z-index: 100;
+  z-index: 1;
   background-color: white;
-}
-
-#single-page-head #menu-burger {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
 }
 
 #single-page-head #inbox-email {
@@ -276,6 +267,13 @@ img:hover {
 }
 
 /*---------------navigation----------------*/
+#section-burger {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  left: 0;
+}
+
 .btn-navigation {
   position: absolute;
   top: 20px;
@@ -287,7 +285,7 @@ img:hover {
   width: 30px;
   height: 3px;
   background-color: black;
-  z-index: 200;
+  z-index: 3;
   margin-top: 5px;
   border-radius: 5px 5px 5px 5px;
 }
@@ -298,7 +296,7 @@ img:hover {
   padding: 30px;
   background-color: #333;
   width: 20%;
-  height: 100%;
+  height: 800px;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
   -webkit-transition: -webkit-transform .6s ease-in-out;

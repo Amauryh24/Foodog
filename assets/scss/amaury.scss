@@ -194,15 +194,12 @@ $black:black;
     flex-wrap: wrap;
     border-bottom: 1px solid black;
     position: fixed;
-    z-index: 100;
+    z-index: 1;
     background-color: white;
 
 
 
-    #menu-burger {
-        display: flex;
-        align-items: baseline;
-    }
+
 
     #inbox-email {
         display: flex;
@@ -239,6 +236,13 @@ $black:black;
 
 
 /*---------------navigation----------------*/
+#section-burger {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    left: 0;
+}
+
 .btn-navigation {
     position: absolute;
     top: 20px;
@@ -249,7 +253,7 @@ $black:black;
         width: 30px;
         height: 3px;
         background-color: black;
-        z-index: 200;
+        z-index: 3;
         margin-top: 5px;
         border-radius: 5px 5px 5px 5px;
     }
@@ -261,7 +265,7 @@ $black:black;
     padding: 30px;
     background-color: #333;
     width: 20%;
-    height: 100%;
+    height: 800px;
     transform: translateX(-100%);
     transition: transform .6s ease-in-out;
 
