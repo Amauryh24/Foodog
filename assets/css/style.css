@@ -201,26 +201,23 @@ body {
 }
 
 /*fin section un*/
+/*====debut section 5=======*/
+#cinq .bg {
+  background-color: #ff8364;
+}
+
 #cinq .img2 {
-  width: 500px;
-}
-
-#cinq.size {
-  font-size: 14px;
-}
-
-#cinq.center {
-  text-align: center;
+  width: 500Px !important;
+  position: absolute;
 }
 
 #cinq .img3 {
-  width: 380px;
-  height: 700px;
+  padding-top: 200px;
 }
 
-#cinq .h2 {
-  text-align: center;
-  color: #ff8364;
+#cinq h3 {
+  height: 200px;
+  color: green;
 }
 
 /*--------------- Début de section 3 --------------- */
