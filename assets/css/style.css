@@ -202,9 +202,12 @@ img:hover {
 
 /* fin footer two*/
 /*----------------------single page---------------------*/
+#cinq {
+  padding-top: 100px;
+}
+
 #single-page-head {
   width: 100%;
-  margin: 20px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -217,6 +220,10 @@ img:hover {
   align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  border-bottom: 1px solid black;
+  position: fixed;
+  z-index: 100;
+  background-color: white;
 }
 
 #single-page-head .bar1,
