@@ -10,6 +10,9 @@
     /* font pour les titres*/
 }
 
+$black:black;
+$gris:grey;
+
 body {
     /*mise en place de la police et interlignage*/
     font-family: 'Open-sans';
@@ -18,7 +21,18 @@ body {
     line-height: 1.5;
 }
 
+img:hover {
+
+    opacity: 0.8;
+
+}
+
 
 @import 'amaury.scss';
 @import 'anso.scss';
+<<<<<<< HEAD
 @import 'ayse.scss';
+=======
+@import 'ayse';
+@import 'section2';
+>>>>>>> developpement
