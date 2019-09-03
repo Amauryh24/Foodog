@@ -47,6 +47,7 @@
   text-align: center;
 }
 
+<<<<<<< HEAD
 /*fin section un*/
 /*====debut section 5=======*/
 #cinq .bg {
@@ -65,5 +66,70 @@
 #cinq h3 {
   height: 200px;
   color: green;
+=======
+/* ============  fin section un ===============*/
+/*=============  code anso sec 5 ===============
+#cinq .bg {
+    background-color: #ff8364;
 }
+
+#cinq .img2 {
+
+    width: 500Px !important;
+    position: absolute;
+}
+
+#cinq .img3 {
+    padding-top: 200px;
+}
+
+#cinq h3 {
+    height: 200px;
+    color: red;
+}
+
+*/
+/* =============  debut section 5 ===============*/
+.boite {
+  border: 1px solid green;
+}
+
+#cinq img {
+  max-width: 100%;
+}
+
+#cinq ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+>>>>>>> f0fa2a0113829bffdd1b2c9145b5bd032c00cc93
+}
+
+#cinq ol li {
+  padding: 0 20px;
+}
+
+#medias-follow-us li {
+  list-style-type: none;
+  padding: 0 5px;
+  margin: 0 10px;
+  background-color: black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+#medias-follow-us li a {
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#medias-follow-us li a i {
+  color: white;
+}
+
 /*# sourceMappingURL=anso.css.map */

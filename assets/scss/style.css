@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 @font-face {
   font-family: 'Open-sans';
   src: url("../fonts/Open-Sans/OpenSans-Regular.ttf");
@@ -30,8 +29,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 #head #medias-head li {
@@ -48,8 +47,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   padding-bottom: 20px;
   border-bottom: 1px solid #f2f2f2;
   margin: 10px 0;
@@ -153,6 +152,11 @@ body {
 }
 
 /*section un*/
+html,
+body {
+  width: 100%;
+}
+
 #un h2 {
   text-align: center;
   font-weight: bold;
@@ -201,89 +205,43 @@ body {
   text-align: center;
 }
 
-<<<<<<< HEAD
-/*fin section un*/
+/*fin section 1*/
 /*====debut section 5=======*/
 #cinq .bg {
   background-color: #ff8364;
 }
 
 #cinq .img2 {
-  width: 500Px !important;
+  width: 750px !important;
+  height: 750px;
   position: absolute;
 }
 
 #cinq .img3 {
-  padding-top: 200px;
+  left: 847.328px;
+  top: 206px;
+  width: 300px;
+  margin-left: 2px;
+  padding: 0px;
+  z-index: 0;
+  position: fixed;
 }
 
-#cinq h3 {
-  height: 200px;
-  color: green;
-=======
-/* ============  fin section un ===============*/
-/*=============  code anso sec 5 ===============
-#cinq .bg {
-    background-color: #ff8364;
+#cinq h1 {
+  width: 750px;
+  text-align: center;
+  font-size: 32px;
+  height: 100px;
 }
 
-#cinq .img2 {
-
-    width: 500Px !important;
-    position: absolute;
+#cinq .col1 {
+  width: 500px;
 }
 
-#cinq .img3 {
-    padding-top: 200px;
-}
-
-#cinq h3 {
-    height: 200px;
-    color: red;
-}
-
-*/
-/* =============  debut section 5 ===============*/
-.boite {
-  border: 1px solid green;
-}
-
-#cinq img {
-  max-width: 100%;
-}
-
-#cinq ol {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#cinq ol li {
-  padding: 0 20px;
-}
-
-#medias-follow-us li {
-  list-style-type: none;
-  padding: 0 5px;
-  margin: 0 10px;
-  background-color: black;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-
-#medias-follow-us li a {
-  display: -ms-grid;
-  display: grid;
-  height: 100%;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-#medias-follow-us li a i {
-  color: white;
->>>>>>> f0fa2a0113829bffdd1b2c9145b5bd032c00cc93
+#cinq .nutrition {
+  color: #ff8364;
+  text-align: center;
+  font-size: 14px;
 }
 
 /*--------------- Début de section 3 --------------- */
@@ -308,11 +266,11 @@ section#trois #titre {
   display: flex;
   width: 100%;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: black;
   font-weight: 900;
   text-transform: uppercase;
@@ -323,8 +281,8 @@ section#trois #titre:after {
   color: #f2f2f2;
   border-top: 2px solid;
   -webkit-box-flex: 1;
-  -ms-flex: 1 0;
-  flex: 1 0;
+      -ms-flex: 1 0;
+          flex: 1 0;
   margin-left: 14px;
 }
 
