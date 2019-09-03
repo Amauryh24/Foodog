@@ -355,16 +355,11 @@ body {
   position: fixed;
 }
 
-#cinq h3 {
-  height: 200px;
-  color: green;
-}
-
+/*#cinq h3 {
+    height: 200px;
+    color: green;
+}*/
 /* =============  debut section 5 ===============*/
-.boite {
-  border: 1px solid green;
-}
-
 #cinq img {
   max-width: 100%;
 }
@@ -403,10 +398,6 @@ body {
 }
 
 /* section 5*/
-.boite {
-  border: 1px solid green;
-}
-
 #cinq img {
   max-width: 100%;
 }
@@ -442,6 +433,35 @@ body {
 
 #medias-follow-us li a i {
   color: white;
+}
+
+#cinq h1 {
+  text-align: center;
+  font-weight: 900px;
+  font-size: 33px;
+  text-transform: uppercase;
+  -webkit-margin-start: 20px;
+          margin-inline-start: 20px;
+  -webkit-margin-end: 20px;
+          margin-inline-end: 20px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+#cinq .p {
+  height: 20px;
+  width: 855px;
+  color: #ff8364;
+  text-transform: uppercase;
+  font-weight: 900px;
+  padding-left: 367px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+#cinq h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
 }
 
 /*--------------- Début de section 3 --------------- */
