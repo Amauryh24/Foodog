@@ -1,10 +1,12 @@
 /*section un*/
+
+$black:black;
+
 html,
 body {
     width: 100%;
     height: 100%;
 }
-
 
 #un h2 {
     text-align: center;
@@ -13,8 +15,6 @@ body {
     font-family: "Open-sans";
     margin-top: -8px;
     color: $black;
-
-
 }
 
 #un .cacher {
@@ -30,7 +30,6 @@ body {
 
 #un .legend {
     font-size: 5px;
-
     margin-top: 5px;
 }
 
@@ -47,7 +46,6 @@ body {
 }
 
 #un .red {
-
     color: #ff8364;
     font-size: 5;
 }
@@ -65,17 +63,12 @@ body {
 
 
 #cinq .img2 {
-
     width: 750px !important;
     height: 750px;
     position: absolute;
-
 }
 
 #cinq .img3 {
-
-
-
     left: 847.328px;
     top: 206px;
     width: 300px;
@@ -83,8 +76,6 @@ body {
     padding: 0px;
     z-index: 0;
     position: fixed;
-
-
 }
 
 #cinq h3 {
@@ -94,12 +85,12 @@ body {
 
 
 /* =============  debut section 5 ===============*/
+
 .boite {
     border: 1px solid green;
 }
 
 #cinq {
-
     img {
         max-width: 100%;
     }
@@ -111,7 +102,6 @@ body {
             padding: 0 20px;
         }
     }
-
 }
 
 #medias-follow-us {
@@ -133,8 +123,6 @@ body {
                 color: white;
             }
         }
-
-
     }
 }
 
