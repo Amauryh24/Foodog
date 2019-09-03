@@ -1,0 +1,170 @@
+/*section un*/
+
+$black:black;
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#un h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Open-sans";
+    margin-top: -8px;
+    color: $black;
+}
+
+#un .cacher {
+    display: none;
+}
+
+#un h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: $black;
+}
+
+#un .legend {
+    font-size: 5px;
+    margin-top: 5px;
+}
+
+#un .bold {
+    font-weight: bold;
+}
+
+#un .test {
+    border: solid black;
+}
+
+#un img {
+    width: 100%;
+}
+
+#un .red {
+    color: #ff8364;
+    font-size: 5;
+}
+
+#un font {
+    font-size: 16px;
+}
+
+#un .center {
+    text-align: center;
+}
+
+/*fin section 1*/
+/*====debut section 5=======*/
+
+
+#cinq .img2 {
+    width: 750px !important;
+    height: 750px;
+    position: absolute;
+}
+
+#cinq .img3 {
+    left: 847.328px;
+    top: 206px;
+    width: 300px;
+    margin-left: 2px;
+    padding: 0px;
+    z-index: 0;
+    position: fixed;
+}
+
+#cinq h3 {
+    height: 200px;
+    color: green;
+}
+
+
+/* =============  debut section 5 ===============*/
+
+.boite {
+    border: 1px solid green;
+}
+
+#cinq {
+    img {
+        max-width: 100%;
+    }
+
+    ol {
+        display: flex;
+
+        li {
+            padding: 0 20px;
+        }
+    }
+}
+
+#medias-follow-us {
+    li {
+        list-style-type: none;
+        padding: 0 5px;
+        margin: 0 10px;
+        background-color: black;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+
+        a {
+            display: grid;
+            height: 100%;
+            align-items: center;
+
+            i {
+                color: white;
+            }
+        }
+    }
+}
+
+/* section 5*/
+.boite {
+    border: 1px solid green;
+}
+
+#cinq {
+
+    img {
+        max-width: 100%;
+    }
+
+    ol {
+        display: flex;
+
+        li {
+            padding: 0 20px;
+        }
+    }
+
+}
+
+#medias-follow-us {
+    li {
+        list-style-type: none;
+        padding: 0 5px;
+        margin: 0 10px;
+        background-color: black;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+
+        a {
+            display: grid;
+            height: 100%;
+            align-items: center;
+
+            i {
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,140 @@
+$title:#ff8364;
+
+/*--------------- Début de section 3 --------------- */
+
+section#trois {
+
+    h3 {
+        font-family: 'Open-sans';
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .cacher {
+        display: none;
+    }
+
+    figure#dix {
+        overflow: hidden;
+        height: 232px;
+        position: relative;
+
+        img {
+
+            position: absolute;
+            top: -65px;
+
+        }
+    }
+
+    figure#quinze {
+        overflow: hidden;
+        height: 238px;
+        position: relative;
+
+        img {
+
+            position: absolute;
+
+        }
+    }
+
+    #titre-deux {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-weight: 900;
+        padding: 15px;
+
+        &:after {
+            content: '';
+            color: #f2f2f2;
+            border-top: 2px solid;
+            flex: 1 0;
+            margin-left: 10px;
+
+        }
+
+        text-transform: uppercase;
+    }
+
+    article {
+
+        .redtitle {
+            margin-top: 15px;
+            color: $title;
+            text-transform: uppercase;
+
+
+            font: {
+                size: 0.7rem;
+                weight: 900;
+                family: 'Open Sans';
+            }
+        }
+
+        .ask {
+            font-weight: 900;
+            text-transform: uppercase;
+            font-size: 1rem;
+        }
+
+        p {
+            color: #939393;
+            text-align: center;
+            font-family: 'Crimson-Text';
+
+        }
+    }
+}
+
+/*--------------- Fin de section 3 --------------- */
+/*--------------- Début de section 6 --------------- */
+section#six {
+
+
+    // ul {
+    //     list-style: none;
+    //     display: flex;
+    //     flex-wrap: wrap;
+
+    //     li {
+    //         padding: 5px 100px;
+    //         background-color: #c8232c;
+    //         margin-right: 20px;
+
+    //     }
+
+    //     .list-item {
+    //         padding: 5px;
+    //         border-radius: 5px;
+
+    //         &.comment {
+    //             background-color: grey;
+    //         }
+
+    //         &.facebook {
+    //             background-color: rgb(2, 119, 228);
+    //         }
+
+    //         &.twitter {
+    //             background-color: rgb(63, 174, 243);
+    //         }
+
+    //         &.pinterest {
+    //             background-color: #c8232c;
+    //         }
+
+    //         a {
+    //             text-decoration: none;
+    //             color: white;
+    //         }
+    //     }
+
+    // }
+}
+
+/*---------------fin de Section 6 --------------- */
+/* ---------------------------------------------- */
