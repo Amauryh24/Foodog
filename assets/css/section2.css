@@ -85,6 +85,13 @@ article #ask:hover {
   text-decoration: none;
 }
 
+article h3 {
+  color: #4b4f54;
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
 article p {
   color: #939393;
 }
@@ -93,7 +100,7 @@ article p {
   display: none;
 }
 
-.linksocial, #fb, #tw, #inst {
+.linksocial, #fb, #tw, #inst, #comm {
   text-decoration: none;
   color: white;
   display: block;
@@ -101,18 +108,18 @@ article p {
   padding: 10px;
 }
 
-.linksocial:hover, #fb:hover, #tw:hover, #inst:hover {
+.linksocial:hover, #fb:hover, #tw:hover, #inst:hover, #comm:hover {
   text-decoration: none;
   color: white;
 }
 
-.linksocial strong, #fb strong, #tw strong, #inst strong {
+.linksocial strong, #fb strong, #tw strong, #inst strong, #comm strong {
   float: right;
   text-transform: uppercase;
   font-size: 12px;
 }
 
-.linksocial span, #fb span, #tw span, #inst span {
+.linksocial span, #fb span, #tw span, #inst span, #comm span {
   font-size: 12px;
   font-weight: bold;
 }
@@ -129,4 +136,11 @@ article p {
 #inst {
   background-color: #6f96bf;
 }
+<<<<<<< HEAD
 /*# sourceMappingURL=section2.css.map */
+=======
+
+#comm {
+  background-color: black;
+}
+>>>>>>> 05f3fedb90cd79f7fff2f5c7383ead9eaf4537fb
