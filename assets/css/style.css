@@ -374,32 +374,16 @@ body {
   padding: 0 20px;
 }
 
-#medias-follow-us li {
-  list-style-type: none;
-  padding: 0 5px;
-  margin: 0 10px;
-  background-color: black;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-
-#medias-follow-us li a {
-  display: -ms-grid;
-  display: grid;
-  height: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#medias-follow-us li a i {
-  color: white;
-}
-
 /* section 5*/
 #cinq img {
   max-width: 100%;
+}
+
+#cinq p {
+  line-height: 1.1em;
+  font-size: 14px;
+  color: grey;
+  font-weight: 400;
 }
 
 #cinq ol {
@@ -412,14 +396,24 @@ body {
   padding: 0 20px;
 }
 
+#cinq h2 {
+  font-weight: 900;
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+#medias-follow-us {
+  padding: 0;
+}
+
 #medias-follow-us li {
   list-style-type: none;
   padding: 0 5px;
   margin: 0 10px;
   background-color: black;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
 }
 
 #medias-follow-us li a {
@@ -433,35 +427,6 @@ body {
 
 #medias-follow-us li a i {
   color: white;
-}
-
-#cinq h2 {
-  text-align: center;
-  font-weight: 900px;
-  font-size: 33px;
-  text-transform: uppercase;
-  -webkit-margin-start: 20px;
-          margin-inline-start: 20px;
-  -webkit-margin-end: 20px;
-          margin-inline-end: 20px;
-  font-family: "Roboto";
-  font-weight: bold;
-}
-
-#cinq .p {
-  height: 20px;
-  width: 855px;
-  color: #ff8364;
-  text-transform: uppercase;
-  font-weight: 900px;
-  padding-left: 367px;
-  font-family: 'Montserrat';
-  font-weight: bold;
-}
-
-#cinq h2 {
-  font-family: "Montserrat";
-  font-weight: bold;
 }
 
 /*--------------- Début de section 3 --------------- */
