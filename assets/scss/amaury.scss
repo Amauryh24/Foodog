@@ -1,47 +1,37 @@
-$black:black;
-$gris:grey;
-
 /*début header*/
+
+$black:black;
 #head {
     padding-top: 25px;
-
     #medias-head {
         display: flex;
         justify-content: flex-end;
     }
-
     #medias-head li {
         list-style-type: none;
         padding: 10px;
     }
-
     #medias-head li i {
         color: $black;
-
         &:hover {
             color: $gris;
         }
     }
-
     #nav {
         display: flex;
         justify-content: flex-end;
         padding-bottom: 20px;
         border-bottom: 1px solid rgb(242, 242, 242);
         margin: 10px 0;
-
     }
-
     #nav li {
         list-style-type: none;
         padding: 0 20px;
-
         &:hover {
             transform: scale(1.2);
             border-bottom: red;
         }
     }
-
     #nav li a {
         color: $black;
         text-transform: uppercase;
@@ -49,7 +39,6 @@ $gris:grey;
         font-weight: 700;
         font-style: normal;
         font-size: 14px;
-
         &:hover {
             color: $gris;
             transition-duration: 0.5s;
@@ -59,10 +48,11 @@ $gris:grey;
 }
 
 
-
 /*============ fin header ================*/
 
+
 /* début footer one*/
+
 #footer-one h2 {
     display: none;
 }
@@ -83,9 +73,12 @@ $gris:grey;
 
 #footer-one img {
     max-width: 100%;
-
     /*l'image occupe 100% de la place disponible du parent*/
+}
 
+#gallery-instagram img {
+    max-width: 100%;
+    height: 100px;
 }
 
 #footer-one li {
@@ -97,6 +90,11 @@ $gris:grey;
     font-weight: 700;
     font-style: normal;
     font-size: 14px;
+    &:hover {
+        text-decoration: none;
+        color: $gris !important;
+        transition-duration: 0.4s;
+    }
 }
 
 #footer-one .cacher {
@@ -108,7 +106,6 @@ $gris:grey;
 #posts a {
     color: red;
     font-weight: 900;
-
     &:hover {
         text-decoration: none;
         color: $gris !important;
@@ -116,9 +113,12 @@ $gris:grey;
     }
 }
 
+
 /*================= fin footer one ==================*/
 
+
 /* début footer two*/
+
 #footer-two h2 {
     display: none;
 }
@@ -131,6 +131,9 @@ $gris:grey;
     list-style-type: none;
     margin-right: 25px;
     width: 25px;
+    &:hover a {
+        background-color: white;
+    }
 }
 
 #medias-footer li a {
@@ -138,12 +141,10 @@ $gris:grey;
     padding: 10px;
     background-color: rgb(52, 58, 64);
     border-radius: 50%;
-
-    &:hover {
-        background-color: red;
+    &:hover i {
+        color: black;
     }
 }
-
 
 #medias-footer li i {
     color: white;
@@ -160,17 +161,60 @@ $gris:grey;
     padding: 3px;
 }
 
+
 /* fin footer two*/
 
 
 /*----------------------single page---------------------*/
-.bar1,
-.bar2,
-.bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
 
+#single-page-head {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 35px;
+        height: 3px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+    #menu-burger {
+        display: flex;
+        align-items: baseline;
+    }
+    #inbox-email {
+        display: flex;
+        height: 40px;
+        align-items: baseline;
+        p {
+            display: inline-block;
+            margin: 0px 20px;
+        }
+        input {
+            width: 150px;
+        }
+    }
+    #search-bar {
+        width: 50px;
+        display: flex;
+        margin-right: 20px;
+        align-items: center;
+        img {
+            width: 100%;
+            padding-right: 10px;
+        }
+        a {
+            font-size: 25px;
+            color: black;
+        }
+    }
 }
+
+
+/* ============ fin #single-page-head ============*/
