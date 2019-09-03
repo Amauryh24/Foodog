@@ -45,21 +45,11 @@ $title: #ff8364;
     }
 }
 
-.linkp {
-    color: #bbc8ac !important;
-}
-
 .share {
-    color: #dbe3f8;
+    color: #939393;
     &:hover {
         text-decoration: none;
         color: #939393;
-    }
-}
-
-.page-link {
-    &:hover {
-        background-color: #1d2124;
     }
 }
 
@@ -83,19 +73,9 @@ article {
             text-decoration: none;
         }
     }
-    h3 {
-        color: rgb(75, 79, 84);
-        font-weight: 900;
-        font-size: 20px;
-        text-transform: uppercase;
-    }
     p {
         color: #939393;
     }
-}
-
-#deux .cacher {
-    display: none;
 }
 
 .linksocial {
@@ -133,38 +113,4 @@ article {
 #inst {
     @extend .linksocial;
     background-color: #6f96bf;
-}
-
-#authorblock {
-    display: inline-block;
-    p {
-        display: inline-block;
-        border-width: 0 1px 0 0;
-        padding-right: 10px;
-        border-color: #50d0f7;
-        border-style: solid;
-        font-size: 9px;
-    }
-    span {
-        text-transform: uppercase;
-    }
-}
-
-#blockshare {
-    display: inline-block;
-    background-color: black;
-    border-radius: 10%;
-    font-size: 10px;
-    a {
-        display: inline-block;
-        color: white;
-        padding: 8px;
-        span {
-            margin-left: 7px;
-            text-transform: uppercase;
-        }
-        &:hover {
-            text-decoration: none;
-        }
-    }
 }
