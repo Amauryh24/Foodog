@@ -1,37 +1,21 @@
 @charset "UTF-8";
 /*--------------- Début de section 3 --------------- */
-section#trois h3 {
-  font-family: 'Open-sans';
-  font-weight: 900;
-  text-align: center;
-}
-
-section#trois .cacher {
+#trois .cacher {
   display: none;
 }
 
-section#trois figure#dix {
-  overflow: hidden;
-  height: 232px;
-  position: relative;
-}
-
-section#trois figure#dix img {
-  position: absolute;
-  top: -65px;
-}
-
-section#trois figure#quinze {
+#trois figure {
   overflow: hidden;
   height: 238px;
   position: relative;
 }
 
-section#trois figure#quinze img {
+#trois figure img {
   position: absolute;
+  top: -65px;
 }
 
-section#trois #titre-deux {
+section#trois #titre {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,42 +28,50 @@ section#trois #titre-deux {
           align-items: center;
   color: black;
   font-weight: 900;
-  padding: 15px;
   text-transform: uppercase;
 }
 
-section#trois #titre-deux:after {
+section#trois #titre:after {
   content: '';
   color: #f2f2f2;
   border-top: 2px solid;
   -webkit-box-flex: 1;
       -ms-flex: 1 0;
           flex: 1 0;
-  margin-left: 10px;
+  margin-left: 14px;
 }
 
-section#trois article .redtitle {
-  margin-top: 15px;
+section#trois section.row {
+  margin-top: 20px;
+}
+
+section#trois section.row article * {
+  text-align: center;
+}
+
+section#trois section.row article img {
+  margin-bottom: 10px;
+}
+
+section#trois section.row article .redtitle {
   color: #ff8364;
   text-transform: uppercase;
   font-size: 0.7rem;
-  font-weight: 900;
-  font-family: 'Open Sans';
+  font-weight: bold;
 }
 
-section#trois article .ask {
+section#trois section.row article .ask {
   font-weight: 900;
   text-transform: uppercase;
   font-size: 1rem;
 }
 
-section#trois article p {
+section#trois section.row article p {
   color: #939393;
-  text-align: center;
-  font-family: 'Crimson-Text';
 }
 
 /*--------------- Fin de section 3 --------------- */
 /*--------------- Début de section 6 --------------- */
 /*---------------fin de Section 6 --------------- */
 /* ---------------------------------------------- */
+/*# sourceMappingURL=ayse.css.map */

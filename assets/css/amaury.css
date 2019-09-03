@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*début header*/
 #head {
   padding-top: 25px;
@@ -9,8 +10,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 #head #medias-head li {
@@ -31,8 +32,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   padding-bottom: 20px;
   border-bottom: 1px solid #f2f2f2;
   margin: 10px 0;
@@ -45,7 +46,7 @@
 
 #head #nav li:hover {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   border-bottom: red;
 }
 
@@ -61,7 +62,7 @@
 #head #nav li a:hover {
   color: grey;
   -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  transition-duration: 0.5s;
   text-decoration: none;
 }
 
@@ -81,7 +82,7 @@
 
 #footer-one article:hover {
   -webkit-transform: rotate(2deg);
-          transform: rotate(2deg);
+  transform: rotate(2deg);
 }
 
 #footer-one img {
@@ -120,7 +121,7 @@
   text-decoration: none;
   color: grey !important;
   -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 /*================= fin footer one ==================*/
@@ -174,14 +175,14 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #single-page-head .bar1,
@@ -200,8 +201,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
 }
 
 #single-page-head #inbox-email {
@@ -210,8 +211,8 @@
   display: flex;
   height: 40px;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
 }
 
 #single-page-head #inbox-email p {
@@ -230,8 +231,8 @@
   display: flex;
   margin-right: 20px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #single-page-head #search-bar img {

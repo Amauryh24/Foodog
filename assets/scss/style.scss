@@ -12,7 +12,6 @@
 
 $black:black;
 $gris:grey;
-
 body {
     /*mise en place de la police et interlignage*/
     font-family: 'Open-sans';
@@ -22,11 +21,8 @@ body {
 }
 
 img:hover {
-
     opacity: 0.8;
-
 }
-
 
 @import 'amaury.scss';
 @import 'anso.scss';
