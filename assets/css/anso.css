@@ -107,8 +107,8 @@ body {
   display: grid;
   height: 100%;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #medias-follow-us li a i {
@@ -145,8 +145,8 @@ body {
   display: grid;
   height: 100%;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #medias-follow-us li a i {
@@ -159,9 +159,9 @@ body {
   font-size: 33px;
   text-transform: uppercase;
   -webkit-margin-start: 20px;
-  margin-inline-start: 20px;
+          margin-inline-start: 20px;
   -webkit-margin-end: 20px;
-  margin-inline-end: 20px;
+          margin-inline-end: 20px;
   font-family: "Roboto";
   font-weight: bold;
 }
@@ -181,5 +181,4 @@ body {
   font-family: "Montserrat";
   font-weight: bold;
 }
-
 /*# sourceMappingURL=anso.css.map */

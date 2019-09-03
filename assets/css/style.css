@@ -356,10 +356,12 @@ body {
   position: fixed;
 }
 
+
 /*#cinq h3 {
     height: 200px;
     color: green;
 }*/
+
 /* =============  debut section 5 ===============*/
 #cinq img {
   max-width: 100%;
@@ -399,6 +401,10 @@ body {
 }
 
 /* section 5*/
+.boite {
+  border: 1px solid green;
+}
+
 #cinq img {
   max-width: 100%;
 }
@@ -547,8 +553,253 @@ section#trois article p {
 
 /*--------------- Fin de section 3 --------------- */
 /*--------------- Début de section 6 --------------- */
-/*---------------fin de Section 6 --------------- */
-/* ---------------------------------------------- */
+section#six .container.un {
+  /* le div des réseaux sociaux*/
+  width: 600px;
+}
+
+section#six .container.un #commts {
+  background-color: #b8b6b6;
+}
+
+section#six .container.un #fb {
+  background-color: #8c92cf;
+}
+
+section#six .container.un #tw {
+  background-color: #50d0f7;
+}
+
+section#six .container.un #pint {
+  background-color: #c8232c;
+}
+
+section#six .container.un .col-md {
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+section#six .container.un .linksocial,
+section#six .container.un #commts,
+section#six .container.un #pint,
+section#six .container.un #fb,
+section#six .container.un #tw,
+section#six .container.un #inst {
+  text-decoration: none;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+}
+
+section#six .container.un .linksocial:hover,
+section#six .container.un #commts:hover,
+section#six .container.un #pint:hover,
+section#six .container.un #fb:hover,
+section#six .container.un #tw:hover,
+section#six .container.un #inst:hover {
+  text-decoration: none;
+  color: white;
+}
+
+section#six .container.un .linksocial strong,
+section#six .container.un #commts strong,
+section#six .container.un #pint strong,
+section#six .container.un #fb strong,
+section#six .container.un #tw strong,
+section#six .container.un #inst strong {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+section#six .container.deux #subs {
+  margin-top: 100px;
+  text-align: center;
+}
+
+section#six .container.deux #mail {
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  width: 600px;
+}
+
+section#six .container.deux #mail ::-webkit-input-placeholder {
+  color: black;
+  padding-left: 3px;
+}
+
+section#six .container.deux #mail :-ms-input-placeholder {
+  color: black;
+  padding-left: 3px;
+}
+
+section#six .container.deux #mail ::-ms-input-placeholder {
+  color: black;
+  padding-left: 3px;
+}
+
+section#six .container.deux #mail ::placeholder {
+  color: black;
+  padding-left: 3px;
+}
+
+section#six .container.deux #mail button {
+  background-color: #ff8364;
+  border: none;
+  text-transform: uppercase;
+  margin-right: 0;
+  font-weight: bold;
+  color: white;
+}
+
+section#six .home-newsletter {
+  margin-top: 40px;
+}
+
+section#six .home-newsletter .single {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+section#six .home-newsletter .single .input-group.formulaire {
+  width: 70%;
+  margin: 0 auto;
+}
+
+section#six .home-newsletter .single h2 {
+  font-size: 22px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+section#six .home-newsletter .single p {
+  padding: 20px;
+}
+
+section#six .home-newsletter .single .form-control {
+  height: 50px;
+  border-color: #c0bebe;
+  border-right: none;
+  border-radius: 0 0 0 0;
+}
+
+section#six .home-newsletter .single .btn {
+  min-height: 50px;
+  border-radius: 0 0 0 0;
+  background: #243c4f;
+  background-color: #ff8364;
+  border: none;
+  text-transform: uppercase;
+  margin-right: 0;
+  font-weight: bold;
+  color: white;
+}
+
+/*Fin de section 6*/
+/*============ Début section 7 =========*/
+section#sept {
+  padding: 0px;
+}
+
+section#sept .single-box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+section#sept .single-nav {
+  margin-left: 0px;
+  display: block;
+  overflow: hidden;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+section#sept .single-nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+section#sept .single-nav .nav-left {
+  border-right: 1px solid #cecccc;
+}
+
+section#sept .single-nav h3 {
+  text-transform: uppercase;
+}
+
+section#sept .single-nav .nav-right {
+  border-left: 1px solid #cecccc;
+}
+
+section#sept .single-nav .nav-arrow {
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+section#sept .single-nav .nav-arrow i {
+  color: grey;
+}
+
+section#sept .single-nav .nav-arrow span {
+  color: grey;
+}
+
+section#sept #farmer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+section#sept #farmer .logo img {
+  height: 140px;
+  width: 140px;
+  max-width: 100%;
+  height: auto;
+}
+
+section#sept #farmer h3 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+section#sept #farmer .farmer-texte {
+  font-size: 1rem;
+  color: grey;
+}
+
+/*============ Fin section 7 =========*/
 .circle-text {
   display: table-cell;
   height: 25px;
@@ -653,10 +904,14 @@ article p {
 }
 
 .linksocial,
+section#six .container.un #commts,
+section#six .container.un #fb,
+section#six .container.un #tw,
+section#six .container.un #pint,
 #fb,
 #tw,
-#inst,
-#comm {
+#inst {
+
   text-decoration: none;
   color: white;
   display: block;
@@ -665,29 +920,41 @@ article p {
 }
 
 .linksocial:hover,
+section#six .container.un #commts:hover,
+section#six .container.un #fb:hover,
+section#six .container.un #tw:hover,
+section#six .container.un #pint:hover,
 #fb:hover,
 #tw:hover,
-#inst:hover,
-#comm:hover {
+#inst:hover {
+
   text-decoration: none;
   color: white;
 }
 
 .linksocial strong,
+section#six .container.un #commts strong,
+section#six .container.un #fb strong,
+section#six .container.un #tw strong,
+section#six .container.un #pint strong,
 #fb strong,
 #tw strong,
-#inst strong,
-#comm strong {
+#inst strong {
+
   float: right;
   text-transform: uppercase;
   font-size: 12px;
 }
 
 .linksocial span,
+section#six .container.un #commts span,
+section#six .container.un #fb span,
+section#six .container.un #tw span,
+section#six .container.un #pint span,
 #fb span,
 #tw span,
-#inst span,
-#comm span {
+#inst span {
+
   font-size: 12px;
   font-weight: bold;
 }
