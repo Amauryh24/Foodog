@@ -114,3 +114,56 @@ article {
     @extend .linksocial;
     background-color: #6f96bf;
 }
+
+#share {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .sharec {
+        width: 30px;
+        height: 30px;
+        color: white;
+        display: inline-grid;
+        text-align: center;
+        align-items: center;
+        border-radius: 50%;
+        &:hover {
+            text-decoration: none;
+            color: white;
+        }
+    }
+    img {
+        width: 30px;
+    }
+    #feb {
+        background-color: #8c92cf;
+    }
+    #tew {
+        background-color: #50d0f7;
+    }
+    #pen {
+        background-color: #e60023;
+    }
+    p {
+        display: inline-block;
+        font-size: 12px;
+    }
+    span {
+        margin: 10px;
+    }
+    #right {
+        float: inline-end;
+    }
+    #commts {
+        display: inline-block;
+        color: #fff;
+        background-color: black;
+        padding: 4px;
+        margin: 0 10px 0 10px;
+        font-size: 12px;
+        border-radius: 6%;
+        &:hover {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}

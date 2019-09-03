@@ -647,3 +647,56 @@ article p {
 #inst {
   background-color: #6f96bf;
 }
+
+#share {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#share .sharec {
+  width: 30px;
+  height: 30px;
+  color: white;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
+#share #feb {
+  background-color: #8c92cf;
+}
+
+#share #tew {
+  background-color: #50d0f7;
+}
+
+#share #pen {
+  background-color: #8c92cf;
+}
+
+#share p {
+  display: inline-block;
+  font-size: 12px;
+}
+
+#share span {
+  margin: 10px;
+}
+
+#share #right {
+  float: inline-end;
+}
+
+#share #commts {
+  display: inline-block;
+  color: #fff;
+  background-color: black;
+  padding: 4px;
+  margin: 0 10px 0 10px;
+  font-size: 12px;
+  border-radius: 6%;
+}
