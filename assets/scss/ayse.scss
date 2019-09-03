@@ -1,0 +1,321 @@
+$title:#ff8364;
+
+/*--------------- Début de section 3 --------------- */
+
+section#trois {
+
+    h3 {
+        font-family: 'Open-sans';
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .cacher {
+        display: none;
+    }
+
+    figure#dix {
+        overflow: hidden;
+        height: 232px;
+        position: relative;
+
+        img {
+
+            position: absolute;
+            top: -65px;
+
+        }
+    }
+
+    figure#quinze {
+        overflow: hidden;
+        height: 238px;
+        position: relative;
+
+        img {
+
+            position: absolute;
+
+        }
+    }
+
+    #titre-deux {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-weight: 900;
+        padding: 15px;
+
+        &:after {
+            content: '';
+            color: #f2f2f2;
+            border-top: 2px solid;
+            flex: 1 0;
+            margin-left: 10px;
+
+        }
+
+        text-transform: uppercase;
+    }
+
+    article {
+
+        .redtitle {
+            margin-top: 15px;
+            color: $title;
+            text-transform: uppercase;
+
+
+            font: {
+                size: 0.7rem;
+                weight: 900;
+                family: 'Open Sans';
+            }
+        }
+
+        .ask {
+            font-weight: 900;
+            text-transform: uppercase;
+            font-size: 1rem;
+        }
+
+        p {
+            color: #939393;
+            text-align: center;
+            font-family: 'Crimson-Text';
+
+        }
+    }
+}
+
+/*--------------- Fin de section 3 --------------- */
+/*--------------- Début de section 6 --------------- */
+section#six {
+
+    .container.un {
+        /* le div des réseaux sociaux*/
+
+        width: 600px;
+
+        #commts {
+            @extend .linksocial;
+            background-color: rgb(184, 182, 182);
+        }
+
+        #fb {
+            @extend .linksocial;
+            background-color: #8c92cf;
+
+        }
+
+        #tw {
+            @extend .linksocial;
+            background-color: #50d0f7;
+        }
+
+        #pint {
+            @extend .linksocial;
+            background-color: #c8232c;
+        }
+
+
+
+        .col-md {
+            padding: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .linksocial {
+            text-decoration: none;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 5px;
+            width: 100px;
+            height: 40px;
+
+            &:hover {
+                text-decoration: none;
+                color: white;
+            }
+
+            strong {
+                text-transform: uppercase;
+                font-size: 12px;
+                margin-top: 2px;
+            }
+        }
+    }
+
+    .container.deux {
+
+        #subs {
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        #mail {
+            height: 40px;
+            display: flex;
+            justify-content: space-around;
+            width: 600px;
+
+            ::placeholder {
+                color: black;
+                padding-left: 3px;
+            }
+
+            button {
+                background-color: $title;
+                border: none;
+                text-transform: uppercase;
+                margin-right: 0;
+                font-weight: bold;
+                color: white;
+            }
+        }
+    }
+
+    .home-newsletter {
+        margin-top: 40px;
+
+
+        .single {
+            max-width: 650px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+
+            .input-group.formulaire {
+                width: 70%;
+                margin: 0 auto;
+            }
+
+            h2 {
+                font-size: 22px;
+                color: white;
+                text-transform: uppercase;
+                margin-bottom: 40px;
+                padding: 20px;
+            }
+
+            p {
+                padding: 20px;
+            }
+
+            .form-control {
+                height: 50px;
+                border-color: rgb(192, 190, 190);
+                border-right: none;
+                border-radius: 0 0 0 0;
+            }
+
+            .btn {
+                min-height: 50px;
+                border-radius: 0 0 0 0;
+                background: #243c4f;
+                background-color: $title;
+                border: none;
+                text-transform: uppercase;
+                margin-right: 0;
+                font-weight: bold;
+                color: white;
+            }
+        }
+    }
+}
+
+/*Fin de section 6*/
+/*============ Début section 7 =========*/
+section#sept {
+    padding: 0px;
+
+    .single-box {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .single-nav {
+
+
+        margin-left: 0px;
+        display: block;
+        overflow: hidden;
+        border-top: 1px solid #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        a {
+            color: black;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .nav-left {
+            border-right: 1px solid #cecccc;
+
+        }
+
+        h3 {
+
+            text-transform: uppercase;
+        }
+
+        .nav-right {
+            border-left: 1px solid #cecccc;
+
+        }
+
+        .nav-arrow {
+
+            text-transform: uppercase;
+            margin-top: 10px;
+            margin-bottom: 50px;
+
+            i {
+                color: grey;
+            }
+
+            span {
+                color: grey;
+            }
+        }
+    }
+
+    #farmer {
+
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+
+        .logo {
+            img {
+                height: 140px;
+                width: 140px;
+                max-width: 100%;
+                height: auto;
+
+            }
+        }
+
+        h3 {
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        .farmer-texte {
+            font-size: 1rem;
+            color: grey;
+
+        }
+    }
+}
+
+/*============ Fin section 7 =========*/

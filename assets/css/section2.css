@@ -1,0 +1,245 @@
+.circle-text {
+  display: table-cell;
+  height: 25px;
+  /*change this and the width for the size of your initial circle*/
+  width: 25px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  padding: 30px;
+  /*make it pretty*/
+  background: #ff8262;
+  color: #fff;
+  font: 20px "josefin sans", arial;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+  text-transform: uppercase;
+  /*change this for font-size and font-family*/
+}
+
+.titregenerique, #titre {
+  color: black;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#titre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+#titre:after {
+  content: '';
+  color: #f2f2f2;
+  border-top: 2px solid;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0;
+          flex: 1 0;
+  margin-left: 14px;
+}
+
+.linkp {
+  color: #bbc8ac !important;
+}
+
+.share {
+  color: #dbe3f8;
+}
+
+.share:hover {
+  text-decoration: none;
+  color: #939393;
+}
+
+.page-link:hover {
+  background-color: #1d2124;
+}
+
+.blockimg {
+  padding-left: 0;
+}
+
+article .redtitle {
+  color: #ff8364;
+  font-weight: bold;
+}
+
+article #ask {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: black;
+}
+
+article #ask:hover {
+  color: black;
+  text-decoration: none;
+}
+
+article h3 {
+  color: #4b4f54;
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+article p {
+  color: #939393;
+}
+
+#deux .cacher {
+  display: none;
+}
+
+.linksocial, #fb, #tw, #inst {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin: 2px;
+  padding: 10px;
+}
+
+.linksocial:hover, #fb:hover, #tw:hover, #inst:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.linksocial strong, #fb strong, #tw strong, #inst strong {
+  float: right;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.linksocial span, #fb span, #tw span, #inst span {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#fb {
+  background-color: #8c92cf;
+  margin-top: 129px;
+}
+
+#tw {
+  background-color: #50d0f7;
+}
+
+#inst {
+  background-color: #6f96bf;
+}
+
+#authorblock {
+  display: inline-block;
+}
+
+#authorblock p {
+  display: inline-block;
+  border-width: 0 1px 0 0;
+  padding-right: 10px;
+  border-color: #50d0f7;
+  border-style: solid;
+  font-size: 9px;
+}
+
+#authorblock span {
+  text-transform: uppercase;
+}
+
+#blockshare {
+  display: inline-block;
+  background-color: black;
+  border-radius: 10%;
+  font-size: 10px;
+}
+
+#blockshare a {
+  display: inline-block;
+  color: white;
+  padding: 8px;
+}
+
+#blockshare a span {
+  margin-left: 7px;
+  text-transform: uppercase;
+}
+
+#blockshare a:hover {
+  text-decoration: none;
+}
+
+#share {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#share .sharec {
+  width: 30px;
+  height: 30px;
+  color: white;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
+#share .sharec:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#share img {
+  width: 30px;
+}
+
+#share #feb {
+  background-color: #8c92cf;
+}
+
+#share #tew {
+  background-color: #50d0f7;
+}
+
+#share #pen {
+  background-color: #e60023;
+}
+
+#share p {
+  display: inline-block;
+  font-size: 12px;
+}
+
+#share span {
+  margin: 10px;
+}
+
+#share #right {
+  float: inline-end;
+}
+
+#share #commts {
+  display: inline-block;
+  color: #fff;
+  background-color: black;
+  padding: 4px;
+  margin: 0 10px 0 10px;
+  font-size: 12px;
+  border-radius: 6%;
+}
+
+#share #commts:hover {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=section2.css.map */
