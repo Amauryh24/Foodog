@@ -4,6 +4,12 @@
 
 #un h2 {
     text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Open-sans";
+    margin-top: -8px;
+    color: $black;
+
 
 }
 
@@ -12,12 +18,15 @@
 }
 
 #un h3 {
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: $black;
 }
 
 #un .legend {
     font-size: 5px;
-    color: green;
+
     margin-top: 5px;
 }
 
@@ -36,6 +45,7 @@
 #un .red {
 
     color: #ff8364;
+    font-size: 5;
 }
 
 #un font {
@@ -45,6 +55,5 @@
 #un .center {
     text-align: center;
 }
-
 
 /*fin section un*/
