@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 @font-face {
   font-family: 'Open-sans';
   src: url("../fonts/Open-Sans/OpenSans-Regular.ttf");
@@ -33,8 +34,8 @@ img:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 #head #medias-head li {
@@ -55,8 +56,8 @@ img:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   padding-bottom: 20px;
   border-bottom: 1px solid #f2f2f2;
   margin: 10px 0;
@@ -69,7 +70,7 @@ img:hover {
 
 #head #nav li:hover {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   border-bottom: red;
 }
 
@@ -85,7 +86,7 @@ img:hover {
 #head #nav li a:hover {
   color: grey;
   -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  transition-duration: 0.5s;
   text-decoration: none;
 }
 
@@ -105,7 +106,7 @@ img:hover {
 
 #footer-one article:hover {
   -webkit-transform: rotate(2deg);
-          transform: rotate(2deg);
+  transform: rotate(2deg);
 }
 
 #footer-one img {
@@ -133,7 +134,7 @@ img:hover {
   text-decoration: none;
   color: grey !important;
   -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 #footer-one .cacher {
@@ -151,7 +152,7 @@ img:hover {
   text-decoration: none;
   color: grey !important;
   -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 /*================= fin footer one ==================*/
@@ -209,14 +210,14 @@ img:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #single-page-head .bar1,
@@ -235,8 +236,8 @@ img:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
 }
 
 #single-page-head #inbox-email {
@@ -245,8 +246,8 @@ img:hover {
   display: flex;
   height: 40px;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
 }
 
 #single-page-head #inbox-email p {
@@ -265,8 +266,8 @@ img:hover {
   display: flex;
   margin-right: 20px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #single-page-head #search-bar img {
@@ -337,11 +338,8 @@ body {
   text-align: center;
 }
 
-<<<<<<< HEAD
 /*fin section 1*/
 /*====debut section 5=======*/
-=======
->>>>>>> 05f3fedb90cd79f7fff2f5c7383ead9eaf4537fb
 #cinq .img2 {
   width: 750px !important;
   height: 750px;
@@ -360,10 +358,55 @@ body {
 
 #cinq h3 {
   height: 200px;
-<<<<<<< HEAD
   color: green;
 }
 
+
+/*#cinq h3 {
+    height: 200px;
+    color: green;
+}*/
+
+/* =============  debut section 5 ===============*/
+#cinq img {
+  max-width: 100%;
+}
+
+#cinq ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#cinq ol li {
+  padding: 0 20px;
+}
+
+#medias-follow-us li {
+  list-style-type: none;
+  padding: 0 5px;
+  margin: 0 10px;
+  background-color: black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+#medias-follow-us li a {
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#medias-follow-us li a i {
+  color: white;
+}
+
+
+
 /* =============  debut section 5 ===============*/
 .boite {
   border: 1px solid green;
@@ -398,60 +441,41 @@ body {
   display: grid;
   height: 100%;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #medias-follow-us li a i {
   color: white;
 }
 
-/* section 5*/
-=======
-  color: red;
+#cinq h2 {
+  text-align: center;
+  font-weight: 900px;
+  font-size: 33px;
+  text-transform: uppercase;
+  -webkit-margin-start: 20px;
+  margin-inline-start: 20px;
+  -webkit-margin-end: 20px;
+  margin-inline-end: 20px;
+  font-family: "Roboto";
+  font-weight: bold;
 }
 
-/* =============  debut section 5 ===============*/
->>>>>>> 05f3fedb90cd79f7fff2f5c7383ead9eaf4537fb
-.boite {
-  border: 1px solid green;
+#cinq .p {
+  height: 20px;
+  width: 855px;
+  color: #ff8364;
+  text-transform: uppercase;
+  font-weight: 900px;
+  padding-left: 367px;
+  font-family: 'Montserrat';
+  font-weight: bold;
 }
 
-#cinq img {
-  max-width: 100%;
-}
-
-#cinq ol {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#cinq ol li {
-  padding: 0 20px;
-}
-
-#medias-follow-us li {
-  list-style-type: none;
-  padding: 0 5px;
-  margin: 0 10px;
-  background-color: black;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-
-#medias-follow-us li a {
-  display: -ms-grid;
-  display: grid;
-  height: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#medias-follow-us li a i {
-  color: white;
+#cinq h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
 }
 
 /*--------------- Début de section 3 --------------- */
@@ -492,11 +516,11 @@ section#trois #titre-deux {
   display: flex;
   width: 100%;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: black;
   font-weight: 900;
   padding: 15px;
@@ -508,8 +532,8 @@ section#trois #titre-deux:after {
   color: #f2f2f2;
   border-top: 2px solid;
   -webkit-box-flex: 1;
-      -ms-flex: 1 0;
-          flex: 1 0;
+  -ms-flex: 1 0;
+  flex: 1 0;
   margin-left: 10px;
 }
 
@@ -552,12 +576,13 @@ section#trois article p {
   color: #fff;
   font: 20px "josefin sans", arial;
   -webkit-transform: rotate(-20deg);
-          transform: rotate(-20deg);
+  transform: rotate(-20deg);
   text-transform: uppercase;
   /*change this for font-size and font-family*/
 }
 
-.titregenerique, #titre {
+.titregenerique,
+#titre {
   color: black;
   font-weight: 900;
   text-transform: uppercase;
@@ -569,11 +594,11 @@ section#trois article p {
   display: flex;
   width: 100%;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 0;
 }
 
@@ -582,8 +607,8 @@ section#trois article p {
   color: #f2f2f2;
   border-top: 2px solid;
   -webkit-box-flex: 1;
-      -ms-flex: 1 0;
-          flex: 1 0;
+  -ms-flex: 1 0;
+  flex: 1 0;
   margin-left: 14px;
 }
 
@@ -640,7 +665,11 @@ article p {
   display: none;
 }
 
-.linksocial, #fb, #tw, #inst, #comm {
+.linksocial,
+#fb,
+#tw,
+#inst,
+#comm {
   text-decoration: none;
   color: white;
   display: block;
@@ -648,18 +677,30 @@ article p {
   padding: 10px;
 }
 
-.linksocial:hover, #fb:hover, #tw:hover, #inst:hover, #comm:hover {
+.linksocial:hover,
+#fb:hover,
+#tw:hover,
+#inst:hover,
+#comm:hover {
   text-decoration: none;
   color: white;
 }
 
-.linksocial strong, #fb strong, #tw strong, #inst strong, #comm strong {
+.linksocial strong,
+#fb strong,
+#tw strong,
+#inst strong,
+#comm strong {
   float: right;
   text-transform: uppercase;
   font-size: 12px;
 }
 
-.linksocial span, #fb span, #tw span, #inst span, #comm span {
+.linksocial span,
+#fb span,
+#tw span,
+#inst span,
+#comm span {
   font-size: 12px;
   font-weight: bold;
 }
