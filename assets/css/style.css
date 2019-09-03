@@ -356,17 +356,10 @@ body {
   position: fixed;
 }
 
-#cinq h3 {
-  height: 200px;
-  color: green;
-}
-
-
 /*#cinq h3 {
     height: 200px;
     color: green;
 }*/
-
 /* =============  debut section 5 ===============*/
 #cinq img {
   max-width: 100%;
@@ -405,13 +398,7 @@ body {
   color: white;
 }
 
-
-
-/* =============  debut section 5 ===============*/
-.boite {
-  border: 1px solid green;
-}
-
+/* section 5*/
 #cinq img {
   max-width: 100%;
 }
@@ -721,3 +708,5 @@ article p {
 #comm {
   background-color: black;
 }
+
+/*# sourceMappingURL=style.css.map */
