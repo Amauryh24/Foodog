@@ -12,7 +12,10 @@ Nous avons débuté le projet , le jeudi 29 Août 2019.
 
 ## Comment avons-nous procédé ?
 
-**1-Division des tâches :**
-Le projet a été découpé en 9 section.
+**1-Réunion  :**  
+Afin d'assigner a chacun sa tâche, il nous a fallut faire des réunions.
+
+**2-Découpage du project  :**  
+Afin d'assigner à chacun sa tâche, il nous a fallut faire des réunions.
  
 
