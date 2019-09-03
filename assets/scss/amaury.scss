@@ -1,22 +1,28 @@
 /*début header*/
 
 $black:black;
+
 #head {
     padding-top: 25px;
+
     #medias-head {
         display: flex;
         justify-content: flex-end;
     }
+
     #medias-head li {
         list-style-type: none;
         padding: 10px;
     }
+
     #medias-head li i {
         color: $black;
+
         &:hover {
             color: $gris;
         }
     }
+
     #nav {
         display: flex;
         justify-content: flex-end;
@@ -24,14 +30,17 @@ $black:black;
         border-bottom: 1px solid rgb(242, 242, 242);
         margin: 10px 0;
     }
+
     #nav li {
         list-style-type: none;
         padding: 0 20px;
+
         &:hover {
             transform: scale(1.2);
             border-bottom: red;
         }
     }
+
     #nav li a {
         color: $black;
         text-transform: uppercase;
@@ -39,6 +48,7 @@ $black:black;
         font-weight: 700;
         font-style: normal;
         font-size: 14px;
+
         &:hover {
             color: $gris;
             transition-duration: 0.5s;
@@ -90,6 +100,7 @@ $black:black;
     font-weight: 700;
     font-style: normal;
     font-size: 14px;
+
     &:hover {
         text-decoration: none;
         color: $gris !important;
@@ -106,6 +117,7 @@ $black:black;
 #posts a {
     color: red;
     font-weight: 900;
+
     &:hover {
         text-decoration: none;
         color: $gris !important;
@@ -131,6 +143,7 @@ $black:black;
     list-style-type: none;
     margin-right: 25px;
     width: 25px;
+
     &:hover a {
         background-color: white;
     }
@@ -141,6 +154,7 @@ $black:black;
     padding: 10px;
     background-color: rgb(52, 58, 64);
     border-radius: 50%;
+
     &:hover i {
         color: black;
     }
@@ -167,6 +181,10 @@ $black:black;
 
 /*----------------------single page---------------------*/
 
+
+
+
+
 #single-page-head {
     width: 100%;
     margin: 20px auto;
@@ -175,6 +193,7 @@ $black:black;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+
     .bar1,
     .bar2,
     .bar3 {
@@ -184,31 +203,38 @@ $black:black;
         margin: 6px 0;
         transition: 0.4s;
     }
+
     #menu-burger {
         display: flex;
         align-items: baseline;
     }
+
     #inbox-email {
         display: flex;
         height: 40px;
         align-items: baseline;
+
         p {
             display: inline-block;
             margin: 0px 20px;
         }
+
         input {
             width: 150px;
         }
     }
+
     #search-bar {
         width: 50px;
         display: flex;
         margin-right: 20px;
         align-items: center;
+
         img {
             width: 100%;
             padding-right: 10px;
         }
+
         a {
             font-size: 25px;
             color: black;

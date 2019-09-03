@@ -337,11 +337,8 @@ body {
   text-align: center;
 }
 
-<<<<<<< HEAD
 /*fin section 1*/
 /*====debut section 5=======*/
-=======
->>>>>>> 05f3fedb90cd79f7fff2f5c7383ead9eaf4537fb
 #cinq .img2 {
   width: 750px !important;
   height: 750px;
@@ -360,7 +357,6 @@ body {
 
 #cinq h3 {
   height: 200px;
-<<<<<<< HEAD
   color: green;
 }
 
@@ -407,12 +403,6 @@ body {
 }
 
 /* section 5*/
-=======
-  color: red;
-}
-
-/* =============  debut section 5 ===============*/
->>>>>>> 05f3fedb90cd79f7fff2f5c7383ead9eaf4537fb
 .boite {
   border: 1px solid green;
 }
@@ -680,3 +670,53 @@ article p {
 #comm {
   background-color: black;
 }
+
+/*---------------navigation----------------*/
+.btn-navigation {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.btn-navigation .barre {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  z-index: 200;
+  margin-top: 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.navigation-single-page {
+  position: fixe;
+  left: 0;
+  padding: 30px;
+  background-color: #333;
+  width: 20%;
+  height: 100%;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: -webkit-transform .6s ease-in-out;
+  transition: -webkit-transform .6s ease-in-out;
+  transition: transform .6s ease-in-out;
+  transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out;
+}
+
+.navigation-single-page ul li {
+  list-style-type: none;
+  margin: 20px 0;
+}
+
+.navigation-single-page ul li a {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+}
+
+.navigation-single-page.isOpen {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+/*# sourceMappingURL=style.css.map */
