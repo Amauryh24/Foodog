@@ -19,13 +19,13 @@ Et ça dura pendant une période de 5 jours.
 
 ## Comment avons-nous procédé ?
 
-### 1- Réunion 
+### 1- Réunion :smile:  
 Afin d'assigner à chacun sa tâche, il nous a fallut faire des réunions.
 
-### 2- Découpage du projet 
+### 2- Découpage du projet :yum:  
 Pendant ces réunions, nous avons divisé le projet en plusieurs sections.
 
-### 3- Tâches par collaborateur  
+### 3- Tâches par collaborateur :confused:  
 - ***Amaury*** 
     * Création du repository
     * Header (page 1 et page 2)
