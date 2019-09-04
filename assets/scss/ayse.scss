@@ -99,23 +99,23 @@ section#six {
 
         width: 600px;
 
-        #commts {
+        .commts {
             @extend .linksocial;
             background-color: rgb(184, 182, 182);
         }
 
-        #fb {
+        .fb {
             @extend .linksocial;
             background-color: #8c92cf;
 
         }
 
-        #tw {
+        .tw {
             @extend .linksocial;
             background-color: #50d0f7;
         }
 
-        #pint {
+        .pint {
             @extend .linksocial;
             background-color: #c8232c;
         }

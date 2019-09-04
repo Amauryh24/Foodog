@@ -23,11 +23,14 @@ Et ça dura pendant une période de 5 jours.
 Afin d'assigner à chacun sa tâche, il nous a fallut faire des réunions.
 
 ### 2- Découpage du projet :yum:  
-Pendant ces réunions, nous avons divisé le projet en plusieurs sections.
+Pendant ces réunions, nous avons divisé le projet en 9 sections plus les « header » et « footer ».
 
-### 3- Tâches par collaborateur :confused:  
+### 3- Organisaton du repository
+Création d'une branche « developpement » rattachée à la branche « Master » et création d'une branche par collaborateur rattachée à la branche « developpement ».  
+
+### 4- Tâches par collaborateur :confused:  
 - ***Amaury*** 
-    * Création du repository
+    * Création du « repository »
     * Header (page 1 et page 2)
     * Footer (page 1 et page 2)
     * Menu hamburger (page 2)
@@ -45,7 +48,8 @@ Pendant ces réunions, nous avons divisé le projet en plusieurs sections.
 - ***AnSo*** 
     * Section 1 (page 1)
     * Section 5 (page 2)
-
+## Nos difficultés 
+- Pour régler les conflits et merger nos branches entre elles.
 
 
 

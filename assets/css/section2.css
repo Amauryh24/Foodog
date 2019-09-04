@@ -73,14 +73,14 @@ article .redtitle {
   font-weight: bold;
 }
 
-article #ask {
+article .ask {
   font-weight: 900;
   text-transform: uppercase;
   font-size: 1.3rem;
   color: black;
 }
 
-article #ask:hover {
+article .ask:hover {
   color: black;
   text-decoration: none;
 }
@@ -220,8 +220,9 @@ article p {
   font-size: 12px;
 }
 
-#share span {
+#share #partage {
   margin: 10px;
+  color: black;
 }
 
 #share #right {

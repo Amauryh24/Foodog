@@ -76,7 +76,7 @@ article {
         font-weight: bold;
     }
 
-    #ask {
+    .ask {
         font-weight: 900;
         text-transform: uppercase;
         // font-family: 'Open Sans', sans-serif;
@@ -225,8 +225,9 @@ article {
         font-size: 12px;
     }
 
-    span {
+    #partage {
         margin: 10px;
+        color: black;
     }
 
     #right {
