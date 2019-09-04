@@ -170,7 +170,7 @@ article p {
   float: inline-end;
 }
 
-#share #commts {
+#share #comms {
   display: inline-block;
   color: #fff;
   background-color: black;
@@ -180,7 +180,7 @@ article p {
   border-radius: 6%;
 }
 
-#share #commts:hover {
+#share #comms:hover {
   text-decoration: none;
   color: white;
 }
