@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 @font-face {
   font-family: 'Open-sans';
   src: url("../fonts/Open-Sans/OpenSans-Regular.ttf");
@@ -33,8 +34,8 @@ img:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 #head #medias-head li {
@@ -55,8 +56,8 @@ img:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   padding-bottom: 20px;
   border-bottom: 1px solid #f2f2f2;
   margin: 10px 0;
@@ -69,7 +70,7 @@ img:hover {
 
 #head #nav li:hover {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   border-bottom: red;
 }
 
@@ -85,7 +86,7 @@ img:hover {
 #head #nav li a:hover {
   color: grey;
   -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  transition-duration: 0.5s;
   text-decoration: none;
 }
 
@@ -105,7 +106,7 @@ img:hover {
 
 #footer-one article:hover {
   -webkit-transform: rotate(1deg);
-          transform: rotate(1deg);
+  transform: rotate(1deg);
 }
 
 #footer-one img {
@@ -133,7 +134,7 @@ img:hover {
   text-decoration: none;
   color: grey !important;
   -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 #footer-one .cacher {
@@ -151,7 +152,7 @@ img:hover {
   text-decoration: none;
   color: grey !important;
   -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 /*================= fin footer one ==================*/
@@ -212,14 +213,14 @@ img:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   border-bottom: 1px solid black;
   position: fixed;
   z-index: 1;
@@ -236,8 +237,8 @@ img:hover {
   display: flex;
   height: 40px;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
 }
 
 #single-page-head #inbox-email p {
@@ -256,8 +257,8 @@ img:hover {
   display: flex;
   margin-right: 20px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #single-page-head #search-bar img {
@@ -302,7 +303,7 @@ img:hover {
   width: 20%;
   height: 800px;
   -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
+  transform: translateX(-100%);
   -webkit-transition: -webkit-transform .6s ease-in-out;
   transition: -webkit-transform .6s ease-in-out;
   transition: transform .6s ease-in-out;
@@ -323,7 +324,7 @@ img:hover {
 
 .navigation-single-page.isOpen {
   -webkit-transform: translateX(0%);
-          transform: translateX(0%);
+  transform: translateX(0%);
 }
 
 /* ============ fin #single-page-head ============*/
@@ -449,6 +450,22 @@ body {
   padding: 20px 0;
 }
 
+#cinq #nutrition {
+  font-weight: 900;
+  font-size: 18px;
+  padding: 20px 0;
+  color: #ff8364;
+  padding-left: 367px;
+}
+
+#cinq h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Montserrat";
+}
+
 #medias-follow-us {
   padding: 0;
 }
@@ -468,8 +485,8 @@ body {
   display: grid;
   height: 100%;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #medias-follow-us li a i {
@@ -514,11 +531,11 @@ section#trois #titre-deux {
   display: flex;
   width: 100%;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: black;
   font-weight: 900;
   padding: 15px;
@@ -530,8 +547,8 @@ section#trois #titre-deux:after {
   color: #f2f2f2;
   border-top: 2px solid;
   -webkit-box-flex: 1;
-      -ms-flex: 1 0;
-          flex: 1 0;
+  -ms-flex: 1 0;
+  flex: 1 0;
   margin-left: 10px;
 }
 
@@ -585,33 +602,48 @@ section#six .container.un .col-md {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-section#six .container.un .linksocial, section#six .container.un #commts, section#six .container.un #pint, section#six .container.un #fb, section#six .container.un #tw, section#six .container.un #inst {
+section#six .container.un .linksocial,
+section#six .container.un #commts,
+section#six .container.un #pint,
+section#six .container.un #fb,
+section#six .container.un #tw,
+section#six .container.un #inst {
   text-decoration: none;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   border-radius: 5px;
   width: 100px;
   height: 40px;
 }
 
-section#six .container.un .linksocial:hover, section#six .container.un #commts:hover, section#six .container.un #pint:hover, section#six .container.un #fb:hover, section#six .container.un #tw:hover, section#six .container.un #inst:hover {
+section#six .container.un .linksocial:hover,
+section#six .container.un #commts:hover,
+section#six .container.un #pint:hover,
+section#six .container.un #fb:hover,
+section#six .container.un #tw:hover,
+section#six .container.un #inst:hover {
   text-decoration: none;
   color: white;
 }
 
-section#six .container.un .linksocial strong, section#six .container.un #commts strong, section#six .container.un #pint strong, section#six .container.un #fb strong, section#six .container.un #tw strong, section#six .container.un #inst strong {
+section#six .container.un .linksocial strong,
+section#six .container.un #commts strong,
+section#six .container.un #pint strong,
+section#six .container.un #fb strong,
+section#six .container.un #tw strong,
+section#six .container.un #inst strong {
   text-transform: uppercase;
   font-size: 12px;
   margin-top: 2px;
@@ -628,7 +660,7 @@ section#six .container.deux #mail {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   width: 600px;
 }
 
@@ -768,7 +800,7 @@ section#sept #farmer {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   position: relative;
 }
 
@@ -804,12 +836,13 @@ section#sept #farmer .farmer-texte {
   color: #fff;
   font: 20px "josefin sans", arial;
   -webkit-transform: rotate(-20deg);
-          transform: rotate(-20deg);
+  transform: rotate(-20deg);
   text-transform: uppercase;
   /*change this for font-size and font-family*/
 }
 
-.titregenerique, #titre {
+.titregenerique,
+#titre {
   color: black;
   font-weight: 900;
   text-transform: uppercase;
@@ -821,11 +854,11 @@ section#sept #farmer .farmer-texte {
   display: flex;
   width: 100%;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 0;
 }
 
@@ -834,8 +867,8 @@ section#sept #farmer .farmer-texte {
   color: #f2f2f2;
   border-top: 2px solid;
   -webkit-box-flex: 1;
-      -ms-flex: 1 0;
-          flex: 1 0;
+  -ms-flex: 1 0;
+  flex: 1 0;
   margin-left: 14px;
 }
 
@@ -892,7 +925,14 @@ article p {
   display: none;
 }
 
-.linksocial, section#six .container.un #commts, section#six .container.un #fb, section#six .container.un #tw, section#six .container.un #pint, #fb, #tw, #inst {
+.linksocial,
+section#six .container.un #commts,
+section#six .container.un #fb,
+section#six .container.un #tw,
+section#six .container.un #pint,
+#fb,
+#tw,
+#inst {
   text-decoration: none;
   color: white;
   display: block;
@@ -900,18 +940,39 @@ article p {
   padding: 10px;
 }
 
-.linksocial:hover, section#six .container.un #commts:hover, section#six .container.un #fb:hover, section#six .container.un #tw:hover, section#six .container.un #pint:hover, #fb:hover, #tw:hover, #inst:hover {
+.linksocial:hover,
+section#six .container.un #commts:hover,
+section#six .container.un #fb:hover,
+section#six .container.un #tw:hover,
+section#six .container.un #pint:hover,
+#fb:hover,
+#tw:hover,
+#inst:hover {
   text-decoration: none;
   color: white;
 }
 
-.linksocial strong, section#six .container.un #commts strong, section#six .container.un #fb strong, section#six .container.un #tw strong, section#six .container.un #pint strong, #fb strong, #tw strong, #inst strong {
+.linksocial strong,
+section#six .container.un #commts strong,
+section#six .container.un #fb strong,
+section#six .container.un #tw strong,
+section#six .container.un #pint strong,
+#fb strong,
+#tw strong,
+#inst strong {
   float: right;
   text-transform: uppercase;
   font-size: 12px;
 }
 
-.linksocial span, section#six .container.un #commts span, section#six .container.un #fb span, section#six .container.un #tw span, section#six .container.un #pint span, #fb span, #tw span, #inst span {
+.linksocial span,
+section#six .container.un #commts span,
+section#six .container.un #fb span,
+section#six .container.un #tw span,
+section#six .container.un #pint span,
+#fb span,
+#tw span,
+#inst span {
   font-size: 12px;
   font-weight: bold;
 }
@@ -981,8 +1042,8 @@ article p {
   display: inline-grid;
   text-align: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-radius: 50%;
 }
 
@@ -1034,4 +1095,5 @@ article p {
   text-decoration: none;
   color: white;
 }
+
 /*# sourceMappingURL=style.css.map */
