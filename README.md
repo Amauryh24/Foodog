@@ -1,4 +1,6 @@
 # Foodog
+<<<<<<< HEAD
+=======
 ## Qui a fait le projet ?
 - Amaury
 - Damien
@@ -16,3 +18,4 @@ Nous avons débuté le projet , le jeudi 29 Août 2019.
 Le projet a été découpé en 9 section.
  
 
+>>>>>>> 29f53140f9343dd7991e8fa50724375328643607

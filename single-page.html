@@ -5,24 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.10.2-web/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/section2.css">
-
     <title>Single Page</title>
 </head>
 
 <body>
+
+
+
+
+
     <header class="container-fluid" id="single-page-head">
         <div id="menu-burger">
-            <div onclick="myFunction(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
+            <div>
+                <div id="section-burger">
+                    <!-- debut burger -->
+                    <div class="navigation-single-page">
+                        <ul>
+                            <li><a href="">Nutrition</a></li>
+                            <li><a href="">wellness</a></li>
+                            <li><a href="">lifestyle</a></li>
+                            <li><a href="">Community</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-navigation">
+                        <div class="barre"></div>
+                        <div class="barre"></div>
+                        <div class="barre"></div>
+
+                    </div>
+
+                    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+                    <script src="assets/js/script.js"></script>
+                </div> <!-- fin de burger -->
+
+
             </div>
-            <div id="index-page-logo">
+            <div>
                 <h1><img src="assets/img/logo.jpeg" alt=""></h1>
             </div>
         </div>
@@ -38,8 +63,7 @@
             <img src="assets/img/logofood.png" alt="">
             <a href=""><i class="fa fa-search"></i></a>
         </div>
-    </header>
-    <!-- ====================== fin du header ======================== -->
+    </header> <!-- ====================== fin du header ======================== -->
 
 
 
@@ -52,12 +76,16 @@
                 <h1>
                     The 11 dog food label tricks every owner needs to know
                 </h1>
-                <img src="assets/img/img-10.jpeg" alt="">
+                <figure>
+                    <img src="assets/img/img-10.jpeg" alt="">
+
+                </figure>
+
                 <div id="share">
                     <img src="assets/img/logofood.png" alt="Branding" class="img-fluid">
                     <p>by : THE FARMER'S DOG</p>
                     <div id="right">
-                        <a id="comms" href="#"> <i class="fas fa-comment"></i>
+                        <a id="commts" href="#"> <i class="fas fa-comment"></i>
                             <strong>comment</strong>
                         </a>
                         <span href="#">share </span>
@@ -67,115 +95,68 @@
                     </div>
 
                 </div>
-                <p>Health-conscious consumers are skilled at deciphering nutrition facts labels. We know to monitor our sodium intake, avoid carrageenan and high fructose corn syrup, and understand that even organic, all-natural potato chips are still chips.
+
+                <p>Health-conscious consumers are skilled at deciphering nutrition facts labels.
+                    We know to monitor our sodium intake, avoid carrageenan and high fructose corn syrup,
+                    and understand that even organic, all-natural potato chips are still chips.
                 </p>
                 <p>
-                    Pet food products, however, remain a mystery. Pet food marketing aims to paint a picture of health (think: images of farms and fresh vegetables on a shelf-stable bag of brown kibble), and every company promises to be the best option for your dog. It’s
-                    tempting to throw in the towel on label vigilance in the pet food aisle and blindly believe the bags, but understanding your dog’s food labels is just as important as carefully examining your own.
+                    Pet food products, however, remain a mystery.
+                    Pet food marketing aims to paint a picture of health (think: images of farms and fresh vegetables
+                    on a shelf-stable bag of brown kibble), and every company promises to be the best option for your
+                    dog.
+                    It’s tempting to throw in the towel on label vigilance in the pet food aisle and blindly believe the
+                    bags,
+                    but understanding your dog’s food labels is just as important as carefully examining your own.
                 </p>
 
                 <p> Step one: learn to recognize the food label tricks that most pet companies are using.</p>
                 <h2>First ingredient</h2>
 
                 <p>
-                    Just because an ingredient is listed first on a label, doesn’t mean it’s the most potent in the product. Pet food companies know that most consumers are searching for a real meat source in that prized first ingredient slot. It’s for this reason that they
-                    break up their ingredients into various equal amounts to trick consumers who are simply scanning for that premiere protein.
-                </p>
-                <p>
-                    For example, a product label containing 20% meat and 80% starches could either look like:
-
-                </p>
-                <p>
-                    Rice (30%), peas (30%), Beef (20%), potatoes (20%)
-
-                </p>
-                <span>or: </span>
-                <p>
-                    Beef (10%), beef heart (10%), long grain rice (10%), brown rice (10%), white rice (10%), split peas (10%), pea protein (10%), english peas (10%), potato (10%), potato starch (10%).
-                </p>
-
-                <p>
-                    On top of this, pet food labels are created before the product is cooked and processed, meaning the meat weighs significantly more. Beef loses weight (i.e. moisture) in the cooking process, while rice gains weight. This means those starches end up occupying
-                    even more volume in the final product.
-                </p>
-                <h2>“With…”</h2>
-
-                <p>
-                    A pet food bag claiming to be filled “with chicken” or “with real beef” is trickier than you’d assume. “With” simply means that the aforementioned ingredients must not make up less than 3% of the product’s total weight. Many pet owners purchase bags made
-                    “with” ingredients they recognize, not realizing that they are only technically required to make up 3% of the total package. The other 97%? Decidedly less familiar.
-                </p>
-
-                <h2> 100% organic</h2>
-                <p>
-                    Branding a product organic has become a proxy for actual nutrition information. A quick refresher: organic foods must be made without the use of antibiotics, artificial growth hormones, high fructose corn syrup, artificial dyes (which, btw, can be made
-                    from things like coal tar), artificial sweeteners derived from chemicals, synthetically created chemical pesticide and fertilizers, genetically engineered protein, sewage sludge, and irradiation. In other words, food deemed “organic”
-                    should really just be called “food,” because neither you nor your pup should be eating any of the other stuff, anyway.
-
-                </p>
-                <p>
-                    But even organic cookies shouldn’t be eaten all day, every day in lieu of fresh food. (And for the record, all commercial kibble — even the organic variety — is so highly processed that much of the nutritional integrity of any individual ingredient is
-                    lost by the time it reaches your dog’s bowl.) Watch out for bags touting “organix” ingredients. Not entirely sure what “organix” means? We aren’t either.
-
-                </p>
-                <h2>
-                    Made “with” organic ingredients
-
-                </h2>
-                <p>
-                    This bold promise simply means that 70% of the ingredients in a product with this label are considered organic, while a product labeled “all organic” guarantees that 95% of the total ingredients meet this criteria. But, again, organic doesn’t mean much
-                    when an ingredient has been burnt to a crisp and exposed to heat and moisture during extrusion, the process through which kibble is made.
+                    The USDA defines “natural” as a product that has no artificial ingredients or added color, but
+                    doesn’t account for additives like antibiotics, growth hormones, or other chemicals. The term is so
+                    broad that the FDA is still struggling to come up with a legal definition for it. Legally speaking,
+                    there is no required difference between foods labeled “all-natural” and “natural.” Natural is not
+                    necessarily organic, but organic must be considered natural.
 
                 </p>
 
-                <h2>
-                    Feed-grade
-                </h2>
-                <p>
-                    Feed-grade is a far cry from food. Pet products with this label are not held to food safety standards and are considered unsuitable for human ingestion. Practically any ingredient is suitable for a feed-grade product, including waste, fats and grease,
-                    and dead animals from farms, ranches, and shelters. Some feed-grade pet products do use higher quality ingredients, but there is no method for consumers to differentiate between feed grade products.
-
-                </p>
-                Human-grade
-                <h2>
-                    Feed-grade
-                </h2>
-                <p>
-                    This term simply means that a product in its entirety (not just individual ingredients) is safe for human consumption. A truly human grade pet food must be manufactured according to food safety standards and made with 100% food ingredients and human-grade
-                    supplements. This label has everything to do with safety and quality, and little to do with cook process. A wide array of pet foods — including kibble, fresh, and dehydrated — can all be human grade, with varying degrees of natural
-                    nutrients depending on how they are prepared. By regulation, raw pet foods are not allowed to claim that they are human grade.
-
-                </p>
-                <h2> Natural </h2>
-                <p>
-                    The USDA defines “natural” as a product that has no artificial ingredients or added color, but doesn’t account for additives like antibiotics, growth hormones, or other chemicals. The term is so broad that the FDA is still struggling to come up with a
-                    legal definition for it. Legally speaking, there is no required difference between foods labeled “all-natural” and “natural.” Natural is not necessarily organic, but organic must be considered natural.
-
-                </p>
                 <h2> Gourmet </h2>
                 <p>
-                    We associate the term with fresh veggies and farm-to-table dining, but there are no legal regulations that determine when this term can be used on food labels.
+                    We associate the term with fresh veggies and farm-to-table dining, but there are no legal
+                    regulations that determine when this term can be used on food labels.
 
                 </p>
                 <h2> Grain-free </h2>
                 <p>
-                    A product sans grain is technically free of corn, soy, wheat, barley, and oats. Grain-free products, however, are not necessarily low-carb; in reality, grain-free dog foods tend to have just as many carbohydrates as dog food that is not grain-free, especially
-                    when high-starch items, like potatoes, are used to replace grain.
+                    A product sans grain is technically free of corn, soy, wheat, barley, and oats. Grain-free products,
+                    however, are not necessarily low-carb; in reality, grain-free dog foods tend to have just as many
+                    carbohydrates as dog food that is not grain-free, especially when high-starch items, like potatoes,
+                    are used to replace grain.
 
                 </p>
                 <h2> Cage-free and/or free-range </h2>
                 <p>
-                    “Cage-free” is exactly what it sounds like: poultry that hasn’t been raised in a cage. But don’t be fooled — cage-free isn’t as free or spacious as it sounds. Chickens raised for meat (even those that are “cage-free”) are typically kept in tight, indoor
-                    spaces that are cramped and uncomfortable. By USDA definition, “cage-free” and “free-range” only require that animals have had access to the outside.
+                    “Cage-free” is exactly what it sounds like: poultry that hasn’t been raised in a cage. But don’t be
+                    fooled — cage-free isn’t as free or spacious as it sounds. Chickens raised for meat (even those that
+                    are “cage-free”) are typically kept in tight, indoor spaces that are cramped and uncomfortable. By
+                    USDA definition, “cage-free” and “free-range” only require that animals have had access to the
+                    outside.
 
                 </p>
                 <h2> Grass-fed </h2>
                 <p>
-                    Though we might often associate “grass-fed” with “free-range,” one does not guarantee the other. Technically speaking, cows can be grass-fed and still contained, only let out to graze for short periods at a time. Though the USDA regulates how the term
-                    is used on labels, it does not regulate how, in practice, the “grass-fed” animals are actually fed.
+                    Though we might often associate “grass-fed” with “free-range,” one does not guarantee the other.
+                    Technically speaking, cows can be grass-fed and still contained, only let out to graze for short
+                    periods at a time. Though the USDA regulates how the term is used on labels, it does not regulate
+                    how, in practice, the “grass-fed” animals are actually fed.
 
                 </p>
                 <p>
-                    In the end, we recommend feeding only from the best dog food companies you know you can trust, and ideally choosing fresh food whenever possible. Stick to foods you can see and the whole feeding process becomes a lot less tricky.
+                    In the end, we recommend feeding only from the best dog food companies you know you can trust, and
+                    ideally choosing fresh food whenever possible. Stick to foods you can see and the whole feeding
+                    process becomes a lot less tricky.
 
                 </p>
                 <p>Image: @jenikrauze</p>
@@ -183,12 +164,14 @@
             <!--=========== fin du 1er article ============-->
 
             <article class=" col-sm-3 boite">
-                <p>follow us</p>
+                <p class="text-center">follow us</p>
                 <div class="container">
-                    <ul id="medias-follow-us" class="row justify-content-end pt-3 pb-5">
+                    <ul id="medias-follow-us" class="row justify-content-center pt-3 pb-5">
                         <li class="text-center"><a href=""><i class="fa fa-facebook-f"></i></a></li>
                         <li class="text-center"><a href=""><i class="fab fa-twitter"></i></a></li>
                         <li class="text-center"><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li class="text-center"><a href=""> <i class="fab fa-pinterest-p"></i></a></li>
+
                     </ul>
                 </div>
                 <img src="assets/img/bannier.jpg" alt="">
@@ -233,8 +216,8 @@
                         <div class="col-sm-12">
                             <div class="single">
                                 <h1>Subscribe to the digest newletter</h1>
-                                <p>Get health and wellness tips about your dog delivered to your inbox.
-                                </p>
+                                <p>Get health and wellness tips about your dog delivered to your
+                                    inbox.</p>
                                 <div class="input-group formulaire">
                                     <input type="email" class="form-control" placeholder="Your email">
                                     <span class="input-group-btn">
@@ -277,16 +260,32 @@
                         <div class="col">
                             <h3>The Farmer's Dog</h3>
 
-                            <p class="farmer-texte">The Farmer’s Dog is the leading direct-to-consumer, fresh pet food company, offering customers and their pets the highest quality and convenience without retail markups. All human-grade meal plans are made to order, designed
-                                by veterinarians, and personalized to provide the ideal nutritional balance for every dog. Get started today at https://www.thefarmersdog.com/.
+                            <p class="farmer-texte">The Farmer’s Dog is the leading
+                                direct-to-consumer, fresh
+                                pet
+                                food company, offering customers and their pets the highest
+                                quality
+                                and
+                                convenience
+                                without
+                                retail markups. All human-grade meal plans are made to
+                                order,
+                                designed by
+                                veterinarians,
+                                and
+                                personalized to provide the ideal nutritional balance for
+                                every dog.
+                                Get started
+                                today
+                                at
+                                https://www.thefarmersdog.com/.
 
                             </p>
                         </div>
                     </div>
                 </div>
 
-            </section>
-            <!-- ======================= fin Section 7 =============== -->
+            </section><!-- ======================= fin Section 7 =============== -->
         </div>
     </div>
 
@@ -294,12 +293,7 @@
         <!-- =================== début de section 8 ======================== -->
         <div class="col-md-9 ">
             <div class="row">
-                <div id="titre" class="col-md-12 mb-5">
-                    you might also like
-                </div>
-            </div>
-            <div class="row">
-                <article class="col-md">
+                <article class="col-md ">
                     <a href="#">
                         <div class="row blockimg mb-4">
                             <img src="assets/img/img-2.jpeg" class="img-fluid w-30" alt="Responsive image">
@@ -330,10 +324,10 @@
                         </div>
                     </a>
                 </article>
-            </div>
+
+            </div> <!-- ======= fin du row ============ -->
         </div>
-    </section>
-    <!-- =================== fin de section 8 ======================== -->
+    </section> <!-- =================== fin de section 8 ======================== -->
 
     <section id="neuf" class="container">
         <!--======= début de section 9 =========-->
@@ -344,15 +338,16 @@
                 </div>
             </div>
             <form>
-                <div class="form-group row mb-md-4">
+                <div class="form-group row mb-4">
                     <textarea class="form-control" rows="6" placeholder="Write your comment here..."></textarea>
                 </div>
                 <div class="form-group row">
-                    <div class="form-group col-md pl-md-0"><input type="text" class="form-control" placeholder="Name...">
+                    <div class="form-group col-md pl-0"><input type="text" class="form-control" placeholder="Name...">
                     </div>
                     <div class="form-group col-md"><input type="email" class="form-control" placeholder="Email...">
                     </div>
-                    <div class="form-group rounded-0  col-md pr-md-0"><input type="url" class="form-control" placeholder="Website...">
+                    <div class="form-group rounded-0  col-md pr-0"><input type="url" class="form-control"
+                            placeholder="Website...">
                     </div>
                 </div>
                 <div class="form-group row">
@@ -361,8 +356,7 @@
             </form>
         </div>
 
-    </section>
-    <!-- =================== fin de section 9 ======================== -->
+    </section> <!-- =================== fin de section 9 ======================== -->
 
     <footer>
         <!--  ========== début du footer ========== -->
@@ -371,20 +365,24 @@
                 <h2 class="cacher">display none</h2>
                 <section class="row justify-content-center ">
                     <div class="col-12">
-                        <div class="row ">
+                        <div class="row">
                             <div class="col-sm text-secondary">
                                 <h5 class="text-left">categories</h5>
                                 <ul class="pl-0">
-                                    <li class="justify-content-left pb-3 pt-3 mr-4 text-white border-bottom border-secondary">
+                                    <li
+                                        class="justify-content-left pb-3 pt-3 mr-4 text-white border-bottom border-secondary">
                                         <a href="#">Community</a>
                                     </li>
-                                    <li class="justify-content-left pb-3 pt-3 mr-4 text-white border-bottom border-secondary">
+                                    <li
+                                        class="justify-content-left pb-3 pt-3 mr-4 text-white border-bottom border-secondary">
                                         <a href="#">Featured</a>
                                     </li>
-                                    <li class="justify-content-left pb-3 pt-3 mr-4 text-white border-bottom border-secondary">
+                                    <li
+                                        class="justify-content-left pb-3 pt-3 mr-4 text-white border-bottom border-secondary">
                                         <a href="#">Lifestyle</a>
                                     </li>
-                                    <li class="justify-content-left pb-3 pt-3 mr-4 text-white border-bottom border-secondary">
+                                    <li
+                                        class="justify-content-left pb-3 pt-3 mr-4 text-white border-bottom border-secondary">
                                         <a href="#">Nutrition</a>
                                     </li>
                                     <li class="justify-content-left pb-3 pt-3 mr-4 text-white ">
@@ -400,83 +398,89 @@
                                 <div class="row">
 
                                     <div class="col-4 pb-4 mb-1">
-                                        <img src="./assets/img/img-1.jpeg" alt="">
+                                        <a href="" title="5 reasons your Dogs is vomiting"><img
+                                                src="./assets/img/img-1.jpeg" alt=""></a>
                                     </div>
                                     <div class="col-8 text-left">
-                                        <a class="text-white" href="#"> 5 reasons your Dogs is vomiting</a>
+                                        <a class="text-white" href="#" title="5 reasons your Dogs is vomiting"> 5
+                                            reasons your Dogs is vomiting</a>
                                     </div>
                                 </div>
 
                                 <div class="row">
 
                                     <div class="col-4 col-sm  pb-4 mb-1 square">
-                                        <img src="./assets/img/img-2.jpeg" alt="">
+                                        <a href="" title="Top 14 Fresh Snacks for Dogs"><img
+                                                src="./assets/img/img-2.jpeg" alt=""></a>
                                     </div>
                                     <div class="col-8 text-left ">
-                                        <a class="text-white" href="#"> Top 14 Fresh Snacks for Dogs</a>
+                                        <a class="text-white" href="#" title="Top 14 Fresh Snacks for Dogs"> Top 14
+                                            Fresh Snacks for Dogs</a>
                                     </div>
                                 </div>
                                 <div class="row">
 
                                     <div class="col-4 col-sm  pb-4 mb-1">
-                                        <img src="./assets/img/img-3.jpeg" alt="">
+                                        <a href="" title="Why Skinny Dogs Live Langer"> <img
+                                                src="./assets/img/img-3.jpeg" alt=""></a>
                                     </div>
                                     <div class="col-8 text-left ">
-                                        <a class="text-white" href="#"> Why Skinny Dogs Live Langer</a>
+                                        <a class="text-white" href="#" title="Why Skinny Dogs Live Langer"> Why Skinny
+                                            Dogs Live Langer</a>
                                     </div>
                                 </div>
                             </section>
 
 
-                            <div class="col-sm text-secondary">
+                            <div id="gallery-instagram" class="col-sm text-secondary">
 
                                 <h5 class="text-left pb-1">Instagram</h5>
 
 
-                                <section class="row">
+                                <section class="row justify-content-center mr-0 ml-0">
                                     <h2 class="cacher">display none</h2>
-                                    <article class="col-sm mb-2 pr-1 pl-1 cacher">
+                                    <article class="col-sm pr-2 mb-2 pl-0 cacher">
                                         <h2 class="cacher">display none</h2>
-                                        <a href="#"> <img src="./assets/img/img-1.jpeg" alt=""></a>
+                                        <a href="#"> <img src="./assets/img/img-16.jpeg" alt=""></a>
                                     </article>
-                                    <article class="col-sm mb-2 pr-1 pl-1 cacher">
+                                    <article class="col-sm pr-2 mb-2 pl-0 cacher">
                                         <h2 class="cacher">display none</h2>
-                                        <a href="#"> <img src="./assets/img/img-2.jpeg" alt=""></a>
+                                        <a href="#"> <img src="./assets/img/img-17.jpeg" alt=""></a>
                                     </article>
-                                    <article class="col-sm mb-2 pr-1 pl-1 cacher">
+                                    <article class="col-sm pr-2 mb-2 pl-0 cacher">
                                         <h2 class="cacher">display none</h2>
-                                        <a href="#"> <img src="./assets/img/img-3.jpeg" alt=""></a>
+                                        <a href="#"> <img src="./assets/img/img-18.jpeg" alt=""></a>
                                     </article>
                                 </section>
-                                <section class="row">
+                                <section class="row justify-content-center mr-0 ml-0">
                                     <h2 class="cacher">display none</h2>
-                                    <article class="col-sm mb-2 pr-1 pl-1 cacher">
+                                    <article class="col-sm pr-2 mb-2 pl-0 cacher">
                                         <h2 class="cacher">display none</h2>
-                                        <a href="#"> <img src="./assets/img/img-4.jpeg" alt=""></a>
+                                        <a href="#"> <img src="./assets/img/img-19.jpeg" alt=""></a>
                                     </article>
-                                    <article class="col-sm mb-2 pr-1 pl-1 cacher">
+                                    <article class="col-sm pr-2 mb-2 pl-0 cacher">
                                         <h2 class="cacher">display none</h2>
-                                        <a href="#"> <img src="./assets/img/img-5.jpeg" alt=""></a>
+                                        <a href="#"> <img src="./assets/img/img-20.jpeg" alt=""></a>
                                     </article>
-                                    <article class="col-sm mb-2 pr-1 pl-1 cacher">
+                                    <article class="col-sm pr-2 mb-2 pl-0 cacher">
                                         <h2 class="cacher">display none</h2>
-                                        <a href="#"> <img src="./assets/img/img-6.jpeg" alt=""></a>
+                                        <a href="#"> <img src="./assets/img/img-21.jpeg" alt=""></a>
                                     </article>
                                 </section>
-                                <section class="row">
+                                <section class="row justify-content-center mr-0 ml-0">
                                     <h2 class="cacher">display none</h2>
 
-                                    <article class="col-sm mb-2 pr-1 pl-1 cacher">
+                                    <article class="col-sm pr-2 mb-2 pl-0 cacher">
                                         <h2 class="cacher">display none</h2>
-                                        <a href="#"> <img src="./assets/img/img-7.jpeg" alt=""></a>
+                                        <a href="#"> <img src="./assets/img/img-22.jpeg" alt=""></a>
                                     </article>
-                                    <article class="col-sm mb-2 pr-1 pl-1 cacher">
+                                    <article class="col-sm pr-2 mb-2 pl-0 cacher">
                                         <h2 class="cacher">display none</h2>
-                                        <a href="#"> <img src="./assets/img/img-8.jpeg" alt=""></a>
+                                        <a href="#"> <img src="./assets/img/img-23.jpeg" alt=""></a>
                                     </article>
-                                    <article class="col-sm mb-2 pr-1 pl-1 cacher">
+                                    <article class="col-sm pr-2 mb-2 pl-0 cacher">
                                         <h2 class="cacher">display none</h2>
-                                        <a href="#"> <img src="./assets/img/img-9.jpeg" alt=""></a>
+                                        <a href="#"> <img src="./assets/img/img-24.jpeg" alt=""></a>
                                     </article>
                                 </section>
                             </div>
@@ -491,6 +495,7 @@
                 <h2 class="cacher">display none</h2>
                 <ul id="medias-footer" class="row justify-content-end pt-3 pb-5">
                     <li class="text-center"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+
                     <li class="text-center"><a href=""><i class="fab fa-twitter"></i></a></li>
                     <li class="text-center"><a href=""><i class="fab fa-instagram"></i></a></li>
                 </ul>
@@ -498,11 +503,12 @@
             <section class="container">
                 <h2 class="cacher">display none</h2>
                 <div class="row justify-content-end">
-                    <a href=""><i id="up" class="fas fa-caret-square-up"></i></a>
+                    <a href="#head"><i id="up" class="fas fa-caret-square-up"></i></a>
                 </div>
             </section>
         </div>
     </footer>
+    <!--  ========== fin du footer ========== -->
 </body>
 
 </html>

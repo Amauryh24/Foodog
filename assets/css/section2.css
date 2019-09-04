@@ -47,13 +47,21 @@
   margin-left: 14px;
 }
 
+.linkp {
+  color: #bbc8ac !important;
+}
+
 .share {
-  color: #939393;
+  color: #dbe3f8;
 }
 
 .share:hover {
   text-decoration: none;
   color: #939393;
+}
+
+.page-link:hover {
+  background-color: #1d2124;
 }
 
 .blockimg {
@@ -77,8 +85,19 @@ article #ask:hover {
   text-decoration: none;
 }
 
+article h3 {
+  color: #4b4f54;
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
 article p {
   color: #939393;
+}
+
+#deux .cacher {
+  display: none;
 }
 
 .linksocial, #fb, #tw, #inst {
@@ -116,6 +135,45 @@ article p {
 
 #inst {
   background-color: #6f96bf;
+}
+
+#authorblock {
+  display: inline-block;
+}
+
+#authorblock p {
+  display: inline-block;
+  border-width: 0 1px 0 0;
+  padding-right: 10px;
+  border-color: #50d0f7;
+  border-style: solid;
+  font-size: 9px;
+}
+
+#authorblock span {
+  text-transform: uppercase;
+}
+
+#blockshare {
+  display: inline-block;
+  background-color: black;
+  border-radius: 10%;
+  font-size: 10px;
+}
+
+#blockshare a {
+  display: inline-block;
+  color: white;
+  padding: 8px;
+}
+
+#blockshare a span {
+  margin-left: 7px;
+  text-transform: uppercase;
+}
+
+#blockshare a:hover {
+  text-decoration: none;
 }
 
 #share {
@@ -170,7 +228,7 @@ article p {
   float: inline-end;
 }
 
-#share #comms {
+#share #commts {
   display: inline-block;
   color: #fff;
   background-color: black;
@@ -180,7 +238,8 @@ article p {
   border-radius: 6%;
 }
 
-#share #comms:hover {
+#share #commts:hover {
   text-decoration: none;
   color: white;
 }
+/*# sourceMappingURL=section2.css.map */

@@ -25,7 +25,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     margin-top: 15px;
-    color: $black;
+    color: black;
 }
 
 #un .legend {
@@ -78,17 +78,14 @@ body {
     position: fixed;
 }
 
-#cinq h3 {
+/*#cinq h3 {
     height: 200px;
     color: green;
-}
+}*/
 
 
 /* =============  debut section 5 ===============*/
 
-.boite {
-    border: 1px solid green;
-}
 
 #cinq {
     img {
@@ -104,37 +101,22 @@ body {
     }
 }
 
-#medias-follow-us {
-    li {
-        list-style-type: none;
-        padding: 0 5px;
-        margin: 0 10px;
-        background-color: black;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
 
-        a {
-            display: grid;
-            height: 100%;
-            align-items: center;
-
-            i {
-                color: white;
-            }
-        }
-    }
-}
 
 /* section 5*/
-.boite {
-    border: 1px solid green;
-}
+
 
 #cinq {
 
     img {
         max-width: 100%;
+    }
+
+    p {
+        line-height: 1.1em;
+        font-size: 14px;
+        color: $gris;
+        font-weight: 400;
     }
 
     ol {
@@ -145,17 +127,24 @@ body {
         }
     }
 
+    h2 {
+        font-weight: 900;
+        font-size: 18px;
+        padding: 20px 0;
+    }
 }
 
 #medias-follow-us {
+    padding: 0;
+
     li {
         list-style-type: none;
         padding: 0 5px;
         margin: 0 10px;
         background-color: black;
         border-radius: 50%;
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
 
         a {
             display: grid;

@@ -73,16 +73,11 @@ body {
   position: fixed;
 }
 
-#cinq h3 {
-  height: 200px;
-  color: green;
-}
-
+/*#cinq h3 {
+    height: 200px;
+    color: green;
+}*/
 /* =============  debut section 5 ===============*/
-.boite {
-  border: 1px solid green;
-}
-
 #cinq img {
   max-width: 100%;
 }
@@ -121,12 +116,14 @@ body {
 }
 
 /* section 5*/
-.boite {
-  border: 1px solid green;
-}
-
 #cinq img {
   max-width: 100%;
+}
+
+#cinq p {
+  line-height: 1.1em;
+  font-size: 14px;
+  color: black;
 }
 
 #cinq ol {
@@ -137,6 +134,11 @@ body {
 
 #cinq ol li {
   padding: 0 20px;
+}
+
+#cinq h2 {
+  font-weight: 900;
+  font-size: 18px;
 }
 
 #medias-follow-us li {
@@ -161,3 +163,4 @@ body {
 #medias-follow-us li a i {
   color: white;
 }
+/*# sourceMappingURL=anso.css.map */
